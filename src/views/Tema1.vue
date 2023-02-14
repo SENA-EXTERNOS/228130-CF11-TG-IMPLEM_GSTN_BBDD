@@ -17,13 +17,9 @@
       SlyderA(tipo='b')
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
-            p.mb-0 Las técnicas que han sido utilizadas en temas de redundancia se han implementado por la industria militar y aeroespacial hace muchos años, para poder alcanzar una alta fiabilidad, debido a esto se puede decir que la redundancia mejora la confiabilidad y disponibilidad del sistema; pero, también obliga a una inversión en infraestructura y diseño del sistema, dando como resultado un incremento en el costo de operación.
-              br
-              br
-              |Ahora bien, un servidor que tiene tolerancia a fallos es aquel que puede tener múltiples fallas en su funcionamiento o componentes internos, no obstante, continuará funcionando adecuadamente.
-              br
-              br
-              |La tolerancia a fallos puede ser necesaria, tanto para la máquina como para el software y hardware, se puede instalar una secuencia en paralelo donde esta, pueda ser capaz de detectar errores. Dicha falla se  debe en muchas ocasiones, a daños físicos como el mal funcionamiento de uno o varios componentes lo que conlleva a la pérdida de la información (Sinisterra et al, 2012).
+            p Las técnicas que han sido utilizadas en temas de redundancia se han implementado por la industria militar y aeroespacial hace muchos años, para poder alcanzar una alta fiabilidad, debido a esto se puede decir que la redundancia mejora la confiabilidad y disponibilidad del sistema; pero, también obliga a una inversión en infraestructura y diseño del sistema, dando como resultado un incremento en el costo de operación.
+            p Ahora bien, un servidor que tiene tolerancia a fallos es aquel que puede tener múltiples fallas en su funcionamiento o componentes internos, no obstante, continuará funcionando adecuadamente.
+            p.mb-0 La tolerancia a fallos puede ser necesaria, tanto para la máquina como para el software y hardware, se puede instalar una secuencia en paralelo donde esta, pueda ser capaz de detectar errores. Dicha falla se debe en muchas ocasiones, a daños físicos como el mal funcionamiento de uno o varios componentes lo que conlleva a la pérdida de la información. (Sinisterra, et al, 2012)
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/2.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
@@ -33,23 +29,19 @@
               img(src='@/assets/curso/temas/tema1/3.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
-            p.mb-0 Para entender de la mejor manera el funcionamiento de la tolerancia a fallas en un sistema, primero se debe revisar el significado de ser tolerante a fallos, ya que este se relaciona con los sistemas fiables; término que comprende varios requerimientos, tales como tener disponibilidad, confiabilidad y seguridad. Se puede definir que un sistema tiene disponibilidad cuando está listo para ser utilizado de inmediato, que pueda ser usado de manera correcta en cualquier momento y se encuentre disponible para la realización de cualquiera de sus funciones.
-              br
-              br
-              |Si un sistema de archivos es tolerante a fallos significa que este, tiene un sistema de recuperación de transacciones. Además, debe guardar copias de seguridad en distintas máquinas para asegurar su disponibilidad, para el desarrollo de este se aplica un algoritmo que permita gestionar las copias de forma consistente. Igualmente, es muy recomendable el uso de memorias cache para agilizar el acceso a los archivos.
+            p Para entender de la mejor manera el funcionamiento de la tolerancia a fallas en un sistema, primero se debe revisar el significado de ser tolerante a fallos, ya que este se relaciona con los sistemas fiables; término que comprende varios requerimientos, tales como tener disponibilidad, confiabilidad y seguridad. Se puede definir que un sistema tiene disponibilidad cuando está listo para ser utilizado de inmediato, que pueda ser usado de manera correcta en cualquier momento y se encuentre disponible para la realización de cualquiera de sus funciones.
+            p.mb-0 Si un sistema de archivos es tolerante a fallos significa que este, tiene un sistema de recuperación de transacciones. Además, debe guardar copias de seguridad en distintas máquinas para asegurar su disponibilidad, para el desarrollo de este se aplica un algoritmo que permita gestionar las copias de forma consistente. Igualmente, es muy recomendable el uso de memorias cache para agilizar el acceso a los archivos.
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/4.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
-            p.mb-0 Es fundamental hablar de los planes de contingencia, ya que esta es una estrategia planificada con una serie procedimientos que permiten desarrollar soluciones alternativas y posibiliten reemplazar rápidamente los servicios en las infraestructuras tecnológicas. El objetivo de un plan de contingencia es establecer procedimientos, indicando acciones que deben tomarse a la hora de un incidente o riesgo; también, debe optimizar el uso de los recursos y materiales a utilizar. Por último, llevar el control adecuado de los procedimientos que se establecen.
-              br
-              br
-              |Todo plan de contingencia debe tener las siguientes etapas: evaluación, planificación, pruebas, ejecución y recuperación. Las primeras tres etapas pueden hacer alusión a los componentes preventivos y las últimas a la ejecución del plan. Por su parte, los riesgos se pueden transferir, eliminar o aceptar, esto dependerá de los factores como la probabilidad de ocurrencia o el impacto del riesgo (Sinisterra et al, 2012).
+            p Es fundamental hablar de los planes de contingencia, ya que esta es una estrategia planificada con una serie procedimientos que permiten desarrollar soluciones alternativas y posibiliten reemplazar rápidamente los servicios en las infraestructuras tecnológicas. El objetivo de un plan de contingencia es establecer procedimientos, indicando acciones que deben tomarse a la hora de un incidente o riesgo; también, debe optimizar el uso de los recursos y materiales a utilizar. Por último, llevar el control adecuado de los procedimientos que se establecen.
+            p.mb-0 Todo plan de contingencia debe tener las siguientes etapas: evaluación, planificación, pruebas, ejecución y recuperación. Las primeras tres etapas pueden hacer alusión a los componentes preventivos y las últimas a la ejecución del plan. Por su parte, los riesgos se pueden transferir, eliminar o aceptar, esto dependerá de los factores como la probabilidad de ocurrencia o el impacto del del riesgo. (Sinisterra, et al, 2012)
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/5.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
-            p.mb-0 Un porcentaje alto que se presentan en los acuerdos SLA en proyectos TI por incumplimientos, es por causa de las caídas en las infraestructuras de hardware o software, esto genera una afectación en los procesos y servicios que se ofrecen. Por esta razón se ofrecen planes de contingencia, ya que estos son un instrumento de gestión en el soporte y desempeño, debido a que contienen medidas técnicas, humanas y organizativas que garantizan la continuidad de los procesos.
+            p.mb-0 Un alto porcentaje de incumplimientos que se presentan en los acuerdos SLA en proyectos TI, son por causa de las caídas en las infraestructuras de hardware o software; esto genera una afectación en los procesos y servicios que se ofrecen. Por esta razón, se brindan planes de contingencia, porque estos son instrumentos de gestión en el soporte y desempeño, debido a que contienen medidas técnicas, humanas y organizativas, que garantizan la continuidad de los procesos.
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/6.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
@@ -58,9 +50,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p Se definen como un conjunto de instrucciones que describen pasos y actividades relevantes de un proceso o un procedimiento, generalmente son realizados en las organizaciones por el equipo del área que desarrolla la actividad. Es importante la planeación y desarrollo del procedimiento operativo, ya que estos deben estar asociados a los requisitos y al nivel de detalle necesario para la ejecución de tareas.
-          br
-          br
-          |Para la redacción de procedimientos de operación se deben tener en cuenta cuatro pasos:
+        p Para la redacción de procedimientos de operación se deben tener en cuenta cuatro pasos:
         ol.lista-ol--cuadro
           li
             .lista-ol--cuadro__vineta
@@ -82,7 +72,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/8.svg', alt='Texto que describa la imagen' )
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 Para la aprobación de un procedimiento de operación es necesario conocer su ciclo de vida. Este se compone de tres elementos que son: 
+        p.mb-0 Para la aprobación de un procedimiento de operación es necesario conocer su ciclo de vida. Este se compone de tres elementos que son:
         ol.lista-ol--cuadro
           li
             .lista-ol--cuadro__vineta
@@ -95,25 +85,23 @@
           li
             .lista-ol--cuadro__vineta
               span(style="color: #12263f").fw-bold 3
-            p.mb-0  #[b El pendiente por aprobación:] es un borrador que se presenta para la aprobación y está listo para ser aprobado o no, en caso de no aprobarse volverá al inicio a la versión borrador.
+            p.mb-0  #[b El aprobado:] este se puede decir que ya está listo para iniciarse (Arencibia, 2019).
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square(style="color: #ffb30b").me-3
       h3.mb-0 Autenticación #[em web]
-    p.mb-5(data-aos='fade-right') Hoy en día el usuario se puede autenticar en un servidor #[em web], este deberá suministrarle unas credenciales que se requieren en la solicitud HTTP, luego el servidor analizará la respuesta determinando si la autenticación del usuario se hizo correctamente (Philippe, 2010).  
+    p.mb-5(data-aos='fade-right') Hoy en día el usuario se puede autenticar en un servidor #[em web], este deberá suministrarle unas credenciales que se requieren en la solicitud HTTP, luego el servidor analizará la respuesta determinando si la autenticación del usuario se hizo correctamente (Philippe, 2010).
     .row.justify-content-center.mb-5
-      .col-lg-6(data-aos="zoom-in"): img(src='@/assets/curso/temas/tema1/9.svg', alt='')    
+      .col-lg-6(data-aos="zoom-in"): img(src='@/assets/curso/temas/tema1/9.svg', alt='')
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/10.png', alt='Texto que describa la imagen' )
       .col-lg-7(data-aos="fade-left")
-        p.mb-0 Una directiva de autenticación se compone de una expresión y de una acción, luego de crear la directiva es enviada a un servidor de autenticación y este asigna una prioridad. Es importante aclarar que una autenticación #[em web] no utiliza un formato rígido, en este se debe decir exactamente qué información necesitará y en qué formato al crear la acción. La autenticación #[em web] se puede definir como la comunicación entre el navegador y el servidor #[em web], donde se hace necesario el protocolo de transferencia de hipertexto y los mensajes de error. Esta comunicación se hace de la siguiente manera: el navegador #[em web] hace una solicitud, como HTTP-GET, luego el servidor realiza una verificación de autenticación, si este no es correcto es porque requiere autenticación. Después el navegador #[em web] utiliza la respuesta del servidor para generar una nueva solicitud, esta contendrá información de la autenticación. Finalmente, el servidor #[em web] realiza la verificación de la autenticación, si esta es correcta, el servidor devolverá al navegador #[em web] la información que fue solicitada (Arencibia, 2019)
+        p.mb-0 Una directiva de autenticación se compone de una expresión y de una acción, luego de crear la directiva es enviada a un servidor de autenticación y este asigna una prioridad. Es importante aclarar que una autenticación #[em web] no utiliza un formato rígido, en este se debe decir exactamente qué información necesitará y en qué formato al crear la acción. La autenticación #[em web] se puede definir como la comunicación entre el navegador y el servidor #[em web], donde se hace necesario el protocolo de transferencia de hipertexto y los mensajes de error. Esta comunicación se hace de la siguiente manera: el navegador #[em web] hace una solicitud, como HTTP-GET, luego el servidor realiza una verificación de autenticación, si este no es correcto es porque requiere autenticación. Después el navegador #[em web] utiliza la respuesta del servidor para generar una nueva solicitud, esta contendrá información de la autenticación. Finalmente, el servidor #[em web] realiza la verificación de la autenticación, si esta es correcta, el servidor devolverá al navegador #[em web] la información que fue solicitada. (Arencibia, 2019)
     p.mb-5(data-aos='fade-right') Existen varios tipos de autenticación #[em web], esta permite la verificación de la identidad de un miembro y determinar el nivel de acceso que tiene en el sitio. Por ejemplo, si es un miembro solo lector o administrador, por esto es gran importancia nombrar cada uno de los tipos de autenticación #[em web].
     .row.justify-content-center.mb-5
       .col-lg-7
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 1.
-          br
-          span.fst-italic Autenticación web
-        //TODO: Completar infografia 
+          span #[em Autenticación web]
+        //TODO: Completar infografia
         ImagenInfograficaB.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -139,7 +127,7 @@
         p Existen dos métodos de cifrado comunes, estos son: el cifrado simétrico y el asimétrico. Las claves de cifrado simétrico se dan a conocer como clave privada, la clave que se usa en la codificación es la misma que se utiliza para descodificar, lo que resulta más conveniente para usuarios de nivel individual, este método es más rápido que el cifrado asimétrico.
           br
           br
-          |El cifrado asimétrico, utiliza dos claves que son diferentes, unas privadas y una pública que tienen una vinculación matemática. Estas son vinculadas, pero no son claves idénticas, es por eso el concepto asimétrico, aquí el propietario mantiene oculta la clave privada mientras que la clave pública se comparte entre los receptores autorizados. 
+          |El cifrado asimétrico, utiliza dos claves que son diferentes, unas privadas y una pública que tienen una vinculación matemática. Estas son vinculadas, pero no son claves idénticas, es por eso el concepto asimétrico, aquí el propietario mantiene oculta la clave privada mientras que la clave pública se comparte entre los receptores autorizados.
     p.mb-5(data-aos='fade-right') A continuación, se presentan ejemplos de algoritmos de cifrado, estos se pueden adaptar según los fines. Entre los cuales se encuentran:
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -164,14 +152,14 @@
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/15.svg')})`}"
           )
-          
+
           .bloque-texto-g__texto.p-4.border-dash.bg-transparent.p-4
             .bg-white.p-3
               p.mb-0 El cifrado también permite a las organizaciones adherirse a las normativas y garantizar el cumplimiento de las mismas. Además, brinda otros beneficios como lo es el cifrado en todos los dispositivos, ya sean móviles, servidores, tabletas, entre otros; garantizando que todos estos dispositivos tengan medidas adicionales de autenticación avanzada. De esta forma ayuda a disuadir aquellos usuarios que no han sido autorizados.
-    p.mb-5(data-aos='fade-right') Por otra parte, el cifrado ayuda al movimiento seguro de la información en la nube. Este permite mantener la privacidad de los datos, garantizando que durante el trayecto o movimiento de la información, estos datos se sigan usando de forma confiable. Otro beneficio del cifrado es que posibilita la protección de la propiedad intelectual, ya que los sistemas que administran el cifrado de datos lo hacen en reposo, para evitar la ingeniería inversa y el uso no autorizado de la reproducción material.
+    p.mb-5(data-aos='fade-right') Por otra parte, el cifrado ayuda al movimiento seguro de la información en la nube. Este permite mantener la privacidad de los datos, garantizando que, durante el trayecto o movimiento de la información, estos datos se sigan usando de forma confiable. Otro beneficio del cifrado es que posibilita la protección de la propiedad intelectual, ya que los sistemas que administran el cifrado de datos lo hacen en reposo, para evitar la ingeniería inversa y el uso no autorizado de la reproducción material.
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square(style="color: #ffb30b").me-3
-      h3.mb-0 Seguridad en la nube 
+      h3.mb-0 Seguridad en la nube
     p.mb-5(data-aos='fade-right') A continuación, se presentan aspectos acerca de la seguridad en la nube, como su definición, proveedores, objetivos y amenazas:
     TabsA.color-secundario.mb-5
       .tarjeta.color-secundario--borde.p-4(titulo="Definición " style="background-color: #f5faff")
@@ -188,7 +176,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/18.svg', alt='')
           .col-lg-10(data-aos="fade-left")
-            p La seguridad en la nube comprende los protocolos, tecnología y buenas prácticas que ayudan a protegerse de los entornos de la nube. El soporte de vulnerabilidades de seguridad está en manos del proveedor, los clientes deben gestionar la configuración adecuada del servicio para generar entornos seguros. Para saber cuál es el alcance de los componentes de la seguridad en la nube se describen algunos de estos elementos: redes físicas, servidores, sistemas operativos, datos, aplicaciones, middleware, plataformas de virtualización, entre otros. 
+            p La seguridad en la nube comprende los protocolos, tecnología y buenas prácticas que ayudan a protegerse de los entornos de la nube. El soporte de vulnerabilidades de seguridad está en manos del proveedor, los clientes deben gestionar la configuración adecuada del servicio para generar entornos seguros. Para saber cuál es el alcance de los componentes de la seguridad en la nube se describen algunos de estos elementos: redes físicas, servidores, sistemas operativos, datos, aplicaciones, middleware, plataformas de virtualización, entre otros.
       .tarjeta.color-secundario--borde.p-4(titulo="Objetivos" style="background-color: #f5faff")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/19.svg', alt='')
@@ -199,7 +187,7 @@
                 | Permitir recuperar la información en caso de un fallo o contingencia.
               li
                 i.fas.fa-check
-                | Brindar protección al almacenamiento mediante cifrados avanzados. 
+                | Brindar protección al almacenamiento mediante cifrados avanzados.
               li
                 i.fas.fa-check
                 | Evitar errores humanos.
@@ -235,7 +223,7 @@
           p.mb-0 En la nube, los datos son más propensos a ser #[em hackeados] cuando la información está en movimiento, por este motivo el cifrado de extremo a extremo es la mejor solución en la seguridad.
     .row.justify-content-center.mb-5
       .col-lg-9(data-aos="fade-right").mb-lg-0.mb-3
-        p Hay que tener claro que, en el manejo de la seguridad en la nube, el proveedor de servicio se encargará de gestionar la seguridad en la infraestructura, servicios de informática, servicios de red, servicios de almacenamiento y, por su parte el cliente deberá ser responsable de gestionar la seguridad de todo lo que se encuentra encima del hipervisor, como lo son: los sistemas operativos, las aplicaciones, los usuarios, los datos. Este modelo en la nube demuestra que la responsabilidad es compartida. Es así como los clientes que gestionan proyectos en la nube, deben aplicar diversas medidas de seguridad para proteger las aplicaciones y los datos mitigando los riesgos de seguridad (Noreña y Calderón, 2018).
+        p Hay que tener claro que, en el manejo de la seguridad en la nube, el proveedor de servicio se encargará de gestionar la seguridad en la infraestructura, servicios de informática, servicios de red, servicios de almacenamiento y, por su parte el cliente deberá ser responsable de gestionar la seguridad de todo lo que se encuentra encima del hipervisor, como lo son: los sistemas operativos, las aplicaciones, los usuarios, los datos. Este modelo en la nube demuestra que la responsabilidad es compartida. Es así como los clientes que gestionan proyectos en la nube, deben aplicar diversas medidas de seguridad para proteger las aplicaciones y los datos mitigando los riesgos de seguridad. (Noreña y Calderón, 2018)
       .col-lg-3(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/22.svg', alt='')
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square(style="color: #ffb30b").me-3

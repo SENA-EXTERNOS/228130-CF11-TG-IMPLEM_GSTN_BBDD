@@ -28,7 +28,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-check
-                p.mb-0 #[b El #[em ransomware]: se]destaca por su capacidad de restringir el acceso a un sistema informático y pedir un rescate para eliminar el bloqueo, este tipo de ciberataque es crítico para cualquier empresa, ya que puede ocasionar una pérdida de datos de gran importancia, ocasionando incluso perjuicios económicos.
+                p.mb-0 #[b El #[em ransomware]:] se destaca por su capacidad de restringir el acceso a un sistema informático y pedir un rescate para eliminar el bloqueo, este tipo de ciberataque es crítico para cualquier empresa, ya que puede ocasionar una pérdida de datos de gran importancia, ocasionando incluso perjuicios económicos.
               li
                 i.fas.fa-check
                 p.mb-0 #[b Ataque de denegación de servicio:] consiste en ocasionar una caída del servidor sobrecargando su tráfico de red y generando una caída en su ancho de banda. También son utilizadas para inundar masivamente el tráfico de servicios en línea de los bancos y otras entidades financieras, generando como resultado la caída del servidor (Arroyo et al, 2020).
@@ -58,10 +58,8 @@
         .row.px-lg-3.p-2
           .col-lg-6.mb-4.mb-md-0
             h5 Prevención
-            p Para prevenir ataques es necesario evitar aquellas publicidades y amenazas, que son enviadas a través de los correos electrónicos, ya que mediante los e-ails se pueden introducir amenazas de virus y robo de la información. Es por esto que se recomienda el monitoreo de las actividades de mensajes sospechosos, los remitentes anónimos y los dominios extraños. Asimismo, educar al personal de la empresa sobre el buen uso de este medio.
-              br
-              br
-              |Es necesario detectar a tiempo códigos maliciosos, hay extensiones comunes donde se alojan estos virus como lo son: PDF, HTML, gif y zip, por esto es fundamental escoger un buen antivirus que sea capaz de descubrir esos códigos maliciosos y evitar el robo de los datos. También se debe ser capaz de reconocer aquellas conexiones sospechosas; por ello es necesario de utilizar herramientas que analicen la reputación de las fuentes no confiables.
+            p Para prevenir ataques es necesario evitar aquellas publicidades y amenazas, que son enviadas a través de los correos electrónicos, ya que mediante los e-mails se pueden introducir amenazas de virus y robo de la información. Es por esto que se recomienda el monitoreo de las actividades de mensajes sospechosos, los remitentes anónimos y los dominios extraños. Asimismo, educar al personal de la empresa sobre el buen uso de este medio.
+            p Es necesario detectar a tiempo, códigos maliciosos; hay extensiones comunes donde se alojan estos virus, como: PDF, HTML, #[em gif y zip], y por esto es fundamental seleccionar un buen antivirus que sea capaz de descubrir esos códigos maliciosos y evitar el robo de los datos. También debe ser posible reconocer aquellas conexiones sospechosas; por eso, es necesario utilizar herramientas que analicen la reputación de las fuentes no confiables.
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/5.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
@@ -75,7 +73,7 @@
         .row.px-lg-3.p-2
           .col-lg-6.mb-4.mb-md-0
             h5 Protección del usuario
-            p La protección del usuario final es un aspecto clave en la ciberseguridad, es por esto que se utilizan protocolos criptográficos para cifrar los correos electrónicos, archivos y datos importantes. La ciberseguridad no solamente protege la información que se mueve, también permite la recuperación de información. El software de seguridad que utiliza el usuario final debe ser capaz de analizar, detectar código malicioso, poner en cuarentena y eliminarlo del equipo, este, además debe ser idóneo para descubrir código malicioso oculto, en el registro de arranque maestro (Zain et al, 2019).
+            p La protección del usuario final es un aspecto clave en la ciberseguridad, es por esto que se utilizan protocolos criptográficos para cifrar los correos electrónicos, archivos y datos importantes. La ciberseguridad no solamente protege la información que se mueve, también permite la recuperación de información. El #[em software] de seguridad que utiliza el usuario final debe ser capaz de analizar, detectar código malicioso, poner en cuarentena y eliminarlo del equipo, este, además debe ser idóneo para descubrir código malicioso oculto, en el registro de arranque maestro (Zain et al, 2019).
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/7.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
@@ -89,13 +87,9 @@
         .row.px-lg-3.p-2
           .col-lg-6.mb-4.mb-md-0
             h5 Estándares de seguridad
-            p El SGSI es un conjunto de normativas de administración de la información, se apoya en el estándar internacional ISO/IEC 27001. Este especifica los requisitos necesarios para mantener y mejorar un sistema de gestión de seguridad de la información, el estándar se enfoca en la mejora continua, planificar, hacer, controlar y actuar. El SGSI siempre buscará la accesibilidad de la información, asegurando la confidencialidad, integridad y disponibilidad (Zain et al, 2019).
-              br
-              br
-              |Como en todo proceso de gestión, debe ser capaz de adaptarse a los cambios internos de la organización y también a los cambios del entorno.
-              br
-              br
-              |Los controles se hacen para mitigar los riesgos de los datos de la organización, algunos de ellos pueden ser: el uso de una política, que requiera la utilización de VPN, tarjetas de acceso para ingresar a algún sitio y el uso de software antivirus (Zain et al, 2019).
+            p El SGSI es un conjunto de normativas de administración de la información, se apoya en el estándar internacional ISO/IEC 27001. Este especifica los requisitos necesarios para mantener y mejorar un sistema de gestión de seguridad de la información, el estándar se enfoca en la mejora continua, planificar, hacer, controlar y actuar. El SGSI siempre buscará la accesibilidad de la información, asegurando la confidencialidad, integridad y  disponibilidad. (Zain, et al, 2019)
+            p Como en todo proceso de gestión, debe ser capaz de adaptarse a los cambios internos de la organización y también a los cambios del entorno.
+            p Los controles se hacen para mitigar los riesgos de los datos de la organización, algunos de ellos pueden ser: el uso de una política, que requiera la utilización de VPN, tarjetas de acceso para ingresar a algún sitio y el uso de software  antivirus. (Zain, et al, 2019)
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/9.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
@@ -131,41 +125,36 @@
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/11.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
-    p.mb-5(data-aos='fade-right') A continuación, se dan a conocer algunos métodos utilizados para amenazar los sistemas:
-    .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="zoom-in")
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2.
-          br
-          span.fst-italic Métodos para amenazar los sistemas
-        ImagenInfografica.color-primario.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema2/12.svg', alt='Texto que describa la imagen')
-          .tarjeta.p-3(x="7%" y="80%" numero="" style="background-color: #ffecc1 ")
-            .text-center
-              .h5.mb-2 #[em Malware]
-              p Se define como un #[em software] que tiene código malicioso, encabeza la lista ya que es unos de los métodos más comunes para el robo o daño de la información. Estos softwares son creados por un #[em hacker] y tienen como función infiltrarse en correos electrónicos fácilmente, para luego ganar dinero o robar algún tipo de información.
-          .tarjeta.p-3(x="24.5%" y="80%" numero="" style="background-color: #ffecc1 ")
-            .text-center
-              .h5.mb-2 Virus
-              p Es un #[em software] capaz de copiarse a sí mismo, se incrusta en algún archivo y luego se extiende en todo el sistema, infectando a cada uno de los archivos utilizando un código malicioso.
-          .tarjeta.p-3(x="41.5%" y="80%" numero="" style="background-color: #ffecc1 ")
-            .text-center
-              .h5.mb-2 Troyanos
-              p Es capaz de esconderse y darse a conocer como si fuera una aplicación original, los cibercriminales utilizan los troyanos para engañar a los usuarios y así estos puedan dañar un sistema informático.
-          .tarjeta.p-3(x="58.4%" y="80%" numero="" style="background-color: #ffecc1 ")
-            .text-center
-              .h5.mb-2 #[em Spyware] 
-              p Son aplicaciones con características muy específicas, estos se encargan de robar la información en secreto y enviarla a los #[em hackers.] Podría capturar lo que se escribe, los datos de las tarjetas de crédito, entre otros.
-          .tarjeta.p-3(x="75.4%" y="80%" numero="" style="background-color: #ffecc1 ")
-            .text-center
-              .h5.mb-2 #[em Ransomware]
-              p Este tipo de #[em software] bloquea los archivos del usuario y amenaza con borrarlos del sistema, hasta que haga un pago por el rescate de la información.
-          .tarjeta.p-3(x="92.8%" y="80%" numero="" style="background-color: #ffecc1 ")
-            .text-center
-              .h5.mb-2 #[em Adware]
-              p Es uno de los #[em softwares] más comunes, ya que se encuentra mucho en las publicidades de aplicaciones y sitios web. Este es capaz de insertar un #[em malware].
+    p.mb-4(data-aos='fade-right') A continuación, se dan a conocer algunos métodos utilizados para amenazar los sistemas:
+    .d-flex.justify-content-center.mb-5
+      ImagenInfografica.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/tema2/12.svg', alt='Texto que describa la imagen')
+        .tarjeta.p-3(x="7%" y="82%" numero="+" style="background-color: #ffecc1 ")
+          .text-center
+            .h5.mb-2 #[em Malware]
+            p Se define como un #[em software] que tiene código malicioso, encabeza la lista ya que es unos de los métodos más comunes para el robo o daño de la información. Estos #[em software] son creados por un #[em hacker] y tienen como función infiltrarse en correos electrónicos fácilmente, para luego ganar dinero o robar algún tipo de información.
+        .tarjeta.p-3(x="24.5%" y="82%" numero="+" style="background-color: #ffecc1 ")
+          .text-center
+            .h5.mb-2 Virus
+            p Es un #[em software] capaz de copiarse a sí mismo, se incrusta en algún archivo y luego se extiende en todo el sistema, infectando a cada uno de los archivos utilizando un código malicioso.
+        .tarjeta.p-3(x="41.5%" y="82%" numero="+" style="background-color: #ffecc1 ")
+          .text-center
+            .h5.mb-2 Troyanos
+            p Es capaz de esconderse y darse a conocer como si fuera una aplicación original, los cibercriminales utilizan los troyanos para engañar a los usuarios y así estos puedan dañar un sistema informático.
+        .tarjeta.p-3(x="58.4%" y="82%" numero="+" style="background-color: #ffecc1 ")
+          .text-center
+            .h5.mb-2 #[em Spyware]
+            p Son aplicaciones con características muy específicas, estos se encargan de robar la información en secreto y enviarla a los #[em hackers.] Podría capturar lo que se escribe, los datos de las tarjetas de crédito, entre otros.
+        .tarjeta.p-3(x="75.4%" y="82%" numero="+" style="background-color: #ffecc1 ")
+          .text-center
+            .h5.mb-2 #[em Ransomware]
+            p Este tipo de #[em software] bloquea los archivos del usuario y amenaza con borrarlos del sistema, hasta que haga un pago por el rescate de la información.
+        .tarjeta.p-3(x="92.8%" y="82%" numero="+" style="background-color: #ffecc1 ")
+          .text-center
+            .h5.mb-2 #[em Adware]
+            p Es uno de los #[em softwares] más comunes, ya que se encuentra mucho en las publicidades de aplicaciones y sitios web. Este es capaz de insertar un #[em malware].
 
 
 </template>
@@ -187,4 +176,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.img-infografica.color-acento-botones .img-infografica__item__numero,
+.img-infografica-b.color-acento-botones .img-infografica__item__numero
+  color: #12263F
+</style>

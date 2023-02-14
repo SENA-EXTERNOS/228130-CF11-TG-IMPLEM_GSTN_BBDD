@@ -13,13 +13,9 @@
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta ")
       .row(titulo="Generalidades")
         .col-lg-7.mb-4.mb-md-0
-          p Debido a los ataques que se presentan diariamente en las redes, si no se tiene una visión de lo que está sucediendo en la red o en los equipos, se podría generar una falla o pérdidas de información masiva. Por esta razón, una opción es la utilización de bitácoras, ya que mostrará eventos en donde se podrán gestionar los dispositivos conectados. Una de las herramientas que puede ayudar en este propósito es el Active Directory de Windows.
-            br
-            br
-            |Todas las operaciones del Active Directory afectan al usuario que accede y al funcionamiento de las máquinas de la red, cada operación de los objetos se convierte en una evidencia. De esta manera, el poder conocer lo que sucede diariamente en la red beneficia directamente la seguridad; pues cada vez que exista una problemática en la infraestructura tecnológica, basta con hacer una revisión de las bitácoras y así poder tomar soluciones a los inconvenientes.
-            br
-            br
-            |Para muchos administradores de TI, cuando se habla de bitácoras se refiere a los registros o log de los sistemas, puede decirse que una bitácora almacena información de los eventos del sistema y en esta se pueden ver cada uno de los registros el sistema.
+          p Debido a los ataques que se presentan diariamente en las redes, si no se tiene una visión de lo que está sucediendo en la red o en los equipos, se podría generar una falla o pérdidas de información masiva. Por esta razón, una opción es la utilización de bitácoras, ya que mostrará eventos en donde se podrán gestionar los dispositivos conectados. Una de las herramientas que puede ayudar en este propósito es el #[em  Active Directory de Windows.]
+          p Todas las operaciones del #[em Active Directory] afectan al usuario que accede y al funcionamiento de las máquinas de la red, cada operación de los objetos se convierte en una evidencia. De esta manera, el poder conocer lo que sucede diariamente en la red beneficia directamente la seguridad; pues cada vez que exista una problemática en la infraestructura tecnológica, basta con hacer una revisión de las bitácoras y así poder tomar soluciones a los inconvenientes.
+          p Para muchos administradores de TI, cuando se habla de bitácoras se refiere a los registros o log de los sistemas, puede decirse que una bitácora almacena información de los eventos del sistema y en esta se pueden ver cada uno de los registros el sistema.
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema4/2.png', alt='Texto que describa la imagen')
@@ -41,7 +37,7 @@
 
             li
               i.fas.fa-check
-              p.mb-0 #[b Sistema:] registran los eventos que suceden en el sistema. 
+              p.mb-0 #[b Sistema:] registran los eventos que suceden en el sistema.
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema4/4.png', alt='Texto que describa la imagen')
@@ -57,19 +53,16 @@
               p.mb-0 Cambios de un objeto.
             li
               i.fas.fa-check
-              p.mb-0 Cambios de un objeto.
+              p.mb-0 Caída de un servidor, posibles ataques.
+
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema4/5.png', alt='Texto que describa la imagen')
       .row(titulo="Importancia")
         .col-lg-7.mb-4.mb-md-0
           p Las bitácoras son esenciales para determinar lo que existe en la red propia. Dentro de los beneficios a destacar se encuentra el ahorro del tiempo por parte del equipo TI, una vez que ya se tiene un plan se pueden monitorear y buscar mejoras para la detección de ataques y poder tomar las medidas necesarias ante un evento de contingencia.
-            br
-            br
-            |Las bitácoras son parte fundamental para poder conocer el entorno, son elementos esenciales de la seguridad, ya que de estas se desprenden medidas preventivas y correctivas a eventos externos e internos. Aunque muchas industrias no consideran a las bitácoras valiosas, debido a que no existe un estándar oficial, pero, si se analizan las situaciones del día a día, se darán cuenta que en las acciones de los hackers tienen un interés muy grande las bitácoras, ya que a la hora de atacar a un sistema informático su objetivo es el de eliminar sus rastros.
-            br
-            br
-            |En las investigaciones generalmente, se accede a las bitácoras, ya que son las primeras en ser atacadas por un hacker, estos tratarían de apagarlas u ocultar la información para no ser detectados. Por ello, la información de las bitácoras debe clasificarse, ya que muestra información importante acerca de los sistemas y usuarios.
+          p Las bitácoras son parte fundamental para poder conocer el entorno, son elementos esenciales de la seguridad, ya que de estas se desprenden medidas preventivas y correctivas a eventos externos e internos. Aunque muchas industrias no consideran a las bitácoras valiosas, debido a que no existe un estándar oficial, pero, si se analizan las situaciones del día a día, se darán cuenta que en las acciones de los #[em hackers] tienen un interés muy grande las bitácoras, ya que a la hora de atacar a un sistema informático su objetivo es el de eliminar sus rastros.
+          p En las investigaciones generalmente, se accede a las bitácoras, ya que son las primeras en ser atacadas por un #[em hacker], estos tratarían de apagarlas u ocultar la información para no ser detectados. Por ello, la información de las bitácoras debe clasificarse, ya que muestra información importante acerca de los sistemas y usuarios.
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema4/6.png', alt='Texto que describa la imagen')
