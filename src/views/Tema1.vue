@@ -97,18 +97,21 @@
       .col-lg-7(data-aos="fade-left")
         p.mb-0 Una directiva de autenticación se compone de una expresión y de una acción, luego de crear la directiva es enviada a un servidor de autenticación y este asigna una prioridad. Es importante aclarar que una autenticación #[em web] no utiliza un formato rígido, en este se debe decir exactamente qué información necesitará y en qué formato al crear la acción. La autenticación #[em web] se puede definir como la comunicación entre el navegador y el servidor #[em web], donde se hace necesario el protocolo de transferencia de hipertexto y los mensajes de error. Esta comunicación se hace de la siguiente manera: el navegador #[em web] hace una solicitud, como HTTP-GET, luego el servidor realiza una verificación de autenticación, si este no es correcto es porque requiere autenticación. Después el navegador #[em web] utiliza la respuesta del servidor para generar una nueva solicitud, esta contendrá información de la autenticación. Finalmente, el servidor #[em web] realiza la verificación de la autenticación, si esta es correcta, el servidor devolverá al navegador #[em web] la información que fue solicitada. (Arencibia, 2019)
     p.mb-5(data-aos='fade-right') Existen varios tipos de autenticación #[em web], esta permite la verificación de la identidad de un miembro y determinar el nivel de acceso que tiene en el sitio. Por ejemplo, si es un miembro solo lector o administrador, por esto es gran importancia nombrar cada uno de los tipos de autenticación #[em web].
-    .row.justify-content-center.mb-5
-      .col-lg-7
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          span #[em Autenticación web]
-        //TODO: Completar infografia
-        ImagenInfograficaB.color-secundario.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+
+    .d-flex.justify-content-start.mb-3
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        span #[em Autenticación web]
+    .d-flex.justify-content-center.mb-4
+      //TODO: Completar infografia
+      ImagenInfograficaB.color-secundario.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/tema1/info_auth_web.png', alt='Autenticación web')
+        div(x="80%" y="16%" tooltip="tooltip de max 35 caracteres" numero="+")
+          .h5.mb-2 titulo
+          p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+
+
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square(style="color: #ffb30b").me-3
       h3.mb-0 Cifrado
