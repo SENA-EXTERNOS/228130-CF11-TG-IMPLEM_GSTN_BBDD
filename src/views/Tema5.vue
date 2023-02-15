@@ -102,7 +102,7 @@
               .bloque-texto-g__texto.p-4.border-dash.bg-transparent.p-4
                 .bg-white.p-2
                   p Lo importante de muchas herramientas es que sean cambiantes, capaces de manejar entornos altamente dinámicos, las herramientas modernas deben ser capaces de identificar, analizar, solucionar y verificar problemas en tiempo real.
-                  p.mb-0 Una de las plataformas más usadas es #[em Zendesk] está llena de oportunidades para la personalización en el flujo de trabajo con opciones de código bajo o sin código. Este sistema quiere posibilitar la producción de varias presentaciones, el personal TI puede rastrear  seleccionar #[em tickets], mientras el usuario obtiene una interfaz de usuario simplificada, que es utilizada para recopilar información.
+                  p.mb-0 Una de las plataformas más usadas es <em>Zendesk</em> está llena de oportunidades para la personalización en el flujo de trabajo con opciones de código bajo o sin código. Este sistema quiere posibilitar la producción de varias presentaciones, el personal TI puede rastrear  seleccionar <em>tickets</em>, mientras el usuario obtiene una interfaz de usuario simplificada, que es utilizada para recopilar información.
 
     p.mb-5(data-aos='fade-right') Otra de las plataformas usadas es #[em Write], ya que se puede personalizar el #[em software] para gestionar los escritorios de TI, es una herramienta para organizar y rastrear el progreso del equipo, con herramientas de informes completas, utilizando diagramas de Gantt y tableros Kanban.
     p #[em Easyvista] es una plataforma ITSM, que facilita a las empresas del área farmacéutica la entrega de servicios, el #[em software] se ha enfocado en ofrecerle la mejor experiencia al cliente. Este se divide en dos módulos para la automatización en la gestión de servicios y para ofrecer respuestas basadas en la inteligencia artificial.
@@ -165,6 +165,9 @@ export default {
 </script>
 
 <style lang="sass">
+.bloque-texto-g__texto *
+    display: inline-block !important
+
 .acordion__activo
   background-color: #e8e8e8
 

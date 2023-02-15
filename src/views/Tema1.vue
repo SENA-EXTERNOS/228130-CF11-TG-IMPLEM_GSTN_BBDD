@@ -10,9 +10,7 @@
       .col-lg-1.col-5.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/1.svg', alt='')
       .col-lg-11(data-aos="fade-left")
         p Los servidores redundantes se utilizan para hacer copias de los servicios del servidor principal, estos deben ser capaces de gestionar la transición entre otros en caso de alguna falla o incidencia. Es por esto que los sistemas redundantes aseguran los datos ante posibles fallos, para que este, pueda seguir en su continuo funcionamiento.
-          br
-          br
-          | A continuación, se presenta información valiosa sobre la gestión de redundancia de servidores:
+        p A continuación, se presenta información valiosa sobre la gestión de redundancia de servidores:
     .tarjeta.p-5.mb-5(style="background-color: #f1f8ff")
       SlyderA(tipo='b')
         .row.justify-content-center.align-items-center
@@ -101,15 +99,41 @@
     .d-flex.justify-content-start.mb-3
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         span #[em Autenticación web]
+
     .d-flex.justify-content-center.mb-4
-      //TODO: Completar infografia
-      ImagenInfograficaB.color-secundario.mb-5
+      ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/info_auth_web.png', alt='Autenticación web')
-        div(x="80%" y="16%" tooltip="tooltip de max 35 caracteres" numero="+")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+
+        .tarjeta.tarjeta.color-tema(x="80%" y="15%" numero="+")
+          .tarjeta-header
+            .h5.mb-2.p-2 Autenticación básica HTTP
+          .p-3
+            p Es la más simple, esta forma requiere que el usuario de inicio en la sesión utilizando datos de credenciales como lo es el usuario y la contraseña. Esta información es codificada en base64; esto quiere decir que la información que es enviada no es segura y hay un riesgo elevado de ser hackeados por un tercero. (Parra et al, 2019)
+
+        .tarjeta.color-tema(x="80%" y="38%" numero="+")
+          .tarjeta-header
+            .h5.mb-2.p-2 Autenticación digest HTTP
+
+          .p-3
+            p Funciona parecido a la autenticación básica, inicialmente el servidor solicita la información de credenciales, luego el servidor hace una comparación en las credenciales de autenticación con lo que está en el archivo, si este coincide concederá el acceso.
+            p La diferencia radica en que la conexión se realiza de manera segura, esto es porque las contraseñas son gestionadas y almacenadas en la base de datos en un formulario cifrado. De esta manera se asegura la información, ya que ni el administrador podrá acceder a la base de datos, así la integridad de los datos es mucho más segura y solo pueden ser leídos por el servidor #[em web]. (Arencibia, 2019)
+
+        .tarjeta.color-tema(x="80%" y="71%" numero="+")
+          .tarjeta-header
+            .h5.mb-2.p-2 Autenticación de cliente HTTPS
+
+          .p-3
+            p Se logra cuando se combina el protocolo HTTP con el SSL #[em (Socket Layer Secure)], dando como resultado la operatividad del contenido en un circuito cerrado, sin ninguna interferencia, permitiendo que el navegador #[em web] haga la verificación de cada página que se encuentre en el sitio #[em web], haciendo uso de la lectura del certificado de clave pública del #[em secure socket] y haciendo la comparación entre la información guardada del certificado de seguridad del sitio.
+            p El protocolo HTTPS es utilizando en entidades donde la información debe ser confidencial como bancos, sitios de compras, entre otras. La autenticación debe proporcionar un nivel alto de seguridad, ya que cada operación de conexión e intercambio cliente-servidor debe estar cifrada.
+
+        .tarjeta.color-tema(x="80%" y="93%" numero="+")
+          .tarjeta-header
+            .h5.mb-2.p-2 Autenticación basadas en formularios
+
+          .p-3
+            p Se utiliza para recolectar datos de usuario que no tienen una necesidad alta de seguridad como encuestas, formularios de contactos. Los sitios de registro utilizan la autenticación basada en formulario, por esta razón es fundamental que para la autenticación se identifiquen los campos como requeridos. De esta forma se asegura que los campos sean llenados correctamente y el formulario sea diligenciado en su totalidad.
 
 
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
@@ -128,9 +152,7 @@
       .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/14.svg', alt='')
       .col-lg-8
         p Existen dos métodos de cifrado comunes, estos son: el cifrado simétrico y el asimétrico. Las claves de cifrado simétrico se dan a conocer como clave privada, la clave que se usa en la codificación es la misma que se utiliza para descodificar, lo que resulta más conveniente para usuarios de nivel individual, este método es más rápido que el cifrado asimétrico.
-          br
-          br
-          |El cifrado asimétrico, utiliza dos claves que son diferentes, unas privadas y una pública que tienen una vinculación matemática. Estas son vinculadas, pero no son claves idénticas, es por eso el concepto asimétrico, aquí el propietario mantiene oculta la clave privada mientras que la clave pública se comparte entre los receptores autorizados.
+        p El cifrado asimétrico, utiliza dos claves que son diferentes, unas privadas y una pública que tienen una vinculación matemática. Estas son vinculadas, pero no son claves idénticas, es por eso el concepto asimétrico, aquí el propietario mantiene oculta la clave privada mientras que la clave pública se comparte entre los receptores autorizados.
     p.mb-5(data-aos='fade-right') A continuación, se presentan ejemplos de algoritmos de cifrado, estos se pueden adaptar según los fines. Entre los cuales se encuentran:
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -219,9 +241,7 @@
       .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/21.png', alt='')
       .col-lg-7(data-aos="fade-left")
         p El reglamento de protección de datos (GDPR) limita la forma en que se deben almacenar los datos y acceder a ellos, ya que estas leyes ayudan a los usuarios finales frente a la venta y mercadeo de los datos confidenciales. La ley #[em Cloud] les da a los proveedores de servicio en la nube sus propias limitaciones legales, fundamentalmente proteger la privacidad del usuario.
-          br
-          br
-          |Afortunadamente, existen muchas opciones para proteger la información de los usuarios, una de estas es el cifrado, ya que permite al proveedor brindar soluciones de seguridad en la nube. Debe tenerse en cuenta que en la nube se maneja el cifrado de las comunicaciones, el cifrado de datos confidenciales y el cifrado de comunicación de extremo a extremo, esto garantizará el flujo seguro de la información (Noreña y Calderón, 2018).
+        p Afortunadamente, existen muchas opciones para proteger la información de los usuarios, una de estas es el cifrado, ya que permite al proveedor brindar soluciones de seguridad en la nube. Debe tenerse en cuenta que en la nube se maneja el cifrado de las comunicaciones, el cifrado de datos confidenciales y el cifrado de comunicación de extremo a extremo, esto garantizará el flujo seguro de la información (Noreña y Calderón, 2018).
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #d9faff")
           p.mb-0 En la nube, los datos son más propensos a ser #[em hackeados] cuando la información está en movimiento, por este motivo el cifrado de extremo a extremo es la mejor solución en la seguridad.
     .row.justify-content-center.mb-5
@@ -238,9 +258,7 @@
         LineaTiempoD.color-acento-botones
           p.text-small(numero="1" titulo="Definición ") Ayudan a establecer la unión segura entre el usuario y la internet. Esta información es transmitida a través de un túnel virtual cifrado, que esconderá la dirección IP cuando se utiliza el internet, creando invisibilidad y brindando seguridad desde ataques externos, ya que las conexiones VPN ofrecen acceso a los datos desde un túnel cifrado.
           p.text-small(numero="2" titulo="Importancia") Un VPN ayudará a acceder a la información con restricción local desde cualquier parte que se acceda, es importante resaltar que las VPN no funcionan como antivirus, tampoco protegen el computador de intrusos externos. Lo que permite es poder crear una red local, sin la necesidad de que los usuarios estén físicamente conectados en la red, sino a través de la internet.
-            br
-            br
-            |Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
+          p Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
           p.text-small(numero="3" titulo="Usos") El bloqueo de contenidos y censuras a sitios no autorizados, se ha popularizado haciendo uso de VPN falsificando la ubicación geográfica donde se encuentra el usuario. Por ejemplo, si una persona que está en Colombia y el servidor está en Francia, utilizando una VPN los servidores creerán que está navegando desde el país de Francia, dejando acceder a contenidos disponibles. Igualmente, con esta misma lógica, se puede acceder a aquellos sitios o contenidos que tuvieran una limitación o bloqueos en su país, pero no donde se encuentra el servidor VPN. En las descargas P2P (peer-to-peer), en donde algunos proveedores bloquean por completo dichas descargas, de igual forma puede usarse una red VPN, para evitar la censura de la descarga, evitando que el proveedor impida hacer este uso.
           div.text-small(numero="4" titulo="Ventajas")
             ul.lista-ul--color
@@ -299,6 +317,22 @@ export default {
 </script>
 
 <style lang="sass">
+.img-infografica__card, .img-infografica-b__card
+  width: 80%
+
+.tarjeta.color-tema
+  background: #fff
+  border: 2px solid #26DEFC
+  border-radius: 12px !important
+
+.tarjeta-header
+  background: #26DEFC
+  .h5
+    text-align: center
+
+.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
+  color: $color-sistema-texto
+
 .acordion__activo
   background-color: #e8e8e8
 
