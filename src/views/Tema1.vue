@@ -17,7 +17,7 @@
           .col-lg-6.mb-4.mb-md-0
             p Las técnicas que han sido utilizadas en temas de redundancia se han implementado por la industria militar y aeroespacial hace muchos años, para poder alcanzar una alta fiabilidad, debido a esto se puede decir que la redundancia mejora la confiabilidad y disponibilidad del sistema; pero, también obliga a una inversión en infraestructura y diseño del sistema, dando como resultado un incremento en el costo de operación.
             p Ahora bien, un servidor que tiene tolerancia a fallos es aquel que puede tener múltiples fallas en su funcionamiento o componentes internos, no obstante, continuará funcionando adecuadamente.
-            p.mb-0 La tolerancia a fallos puede ser necesaria, tanto para la máquina como para el software y hardware, se puede instalar una secuencia en paralelo donde esta, pueda ser capaz de detectar errores. Dicha falla se debe en muchas ocasiones, a daños físicos como el mal funcionamiento de uno o varios componentes lo que conlleva a la pérdida de la información. (Sinisterra, et al, 2012)
+            p.mb-0 La tolerancia a fallos puede ser necesaria, tanto para la máquina como para el #[em software] y #[em hardware], se puede instalar una secuencia en paralelo donde esta, pueda ser capaz de detectar errores. Dicha falla se debe en muchas ocasiones, a daños físicos como el mal funcionamiento de uno o varios componentes lo que conlleva a la pérdida de la información. (Sinisterra, #[em et al], 2012)
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/2.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
@@ -34,12 +34,12 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
             p Es fundamental hablar de los planes de contingencia, ya que esta es una estrategia planificada con una serie procedimientos que permiten desarrollar soluciones alternativas y posibiliten reemplazar rápidamente los servicios en las infraestructuras tecnológicas. El objetivo de un plan de contingencia es establecer procedimientos, indicando acciones que deben tomarse a la hora de un incidente o riesgo; también, debe optimizar el uso de los recursos y materiales a utilizar. Por último, llevar el control adecuado de los procedimientos que se establecen.
-            p.mb-0 Todo plan de contingencia debe tener las siguientes etapas: evaluación, planificación, pruebas, ejecución y recuperación. Las primeras tres etapas pueden hacer alusión a los componentes preventivos y las últimas a la ejecución del plan. Por su parte, los riesgos se pueden transferir, eliminar o aceptar, esto dependerá de los factores como la probabilidad de ocurrencia o el impacto del del riesgo. (Sinisterra, et al, 2012)
+            p.mb-0 Todo plan de contingencia debe tener las siguientes etapas: evaluación, planificación, pruebas, ejecución y recuperación. Las primeras tres etapas pueden hacer alusión a los componentes preventivos y las últimas a la ejecución del plan. Por su parte, los riesgos se pueden transferir, eliminar o aceptar, esto dependerá de los factores como la probabilidad de ocurrencia o el impacto del del riesgo. (Sinisterra, #[em et al], 2012)
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/5.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
-            p.mb-0 Un alto porcentaje de incumplimientos que se presentan en los acuerdos SLA en proyectos TI, son por causa de las caídas en las infraestructuras de hardware o software; esto genera una afectación en los procesos y servicios que se ofrecen. Por esta razón, se brindan planes de contingencia, porque estos son instrumentos de gestión en el soporte y desempeño, debido a que contienen medidas técnicas, humanas y organizativas, que garantizan la continuidad de los procesos.
+            p.mb-0 Un alto porcentaje de incumplimientos que se presentan en los acuerdos SLA en proyectos TI, son por causa de las caídas en las infraestructuras de #[em hardware] o #[em software]; esto genera una afectación en los procesos y servicios que se ofrecen. Por esta razón, se brindan planes de contingencia, porque estos son instrumentos de gestión en el soporte y desempeño, debido a que contienen medidas técnicas, humanas y organizativas, que garantizan la continuidad de los procesos.
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/6.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
@@ -110,7 +110,7 @@
           .tarjeta-header
             .h5.mb-2.p-2 Autenticación básica HTTP
           .p-3
-            p Es la más simple, esta forma requiere que el usuario de inicio en la sesión utilizando datos de credenciales como lo es el usuario y la contraseña. Esta información es codificada en base64; esto quiere decir que la información que es enviada no es segura y hay un riesgo elevado de ser hackeados por un tercero. (Parra et al, 2019)
+            p Es la más simple, esta forma requiere que el usuario de inicio en la sesión utilizando datos de credenciales como lo es el usuario y la contraseña. Esta información es codificada en #[em base64]; esto quiere decir que la información que es enviada no es segura y hay un riesgo elevado de ser #[em hackeados] por un tercero. (Parra #[em et al], 2019)
 
         .tarjeta.color-tema(x="80%" y="38%" numero="+")
           .tarjeta-header
@@ -139,7 +139,7 @@
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square(style="color: #ffb30b").me-3
       h3.mb-0 Cifrado
-    p.mb-5(data-aos='fade-right') Se puede definir como la conversión de los datos de un formato legible a un formato codificado, la información cifrada solo se puede leer o procesar luego de descifrarlos. Debe tenerse en cuenta que la base principal de la seguridad es el cifrado, ya que es una forma sencilla y valiosa que garantiza la seguridad de la información, de esta forma no podrá ser robada o leída con fines maliciosos (Parra et al, 2019).
+    p.mb-5(data-aos='fade-right') Se puede definir como la conversión de los datos de un formato legible a un formato codificado, la información cifrada solo se puede leer o procesar luego de descifrarlos. Debe tenerse en cuenta que la base principal de la seguridad es el cifrado, ya que es una forma sencilla y valiosa que garantiza la seguridad de la información, de esta forma no podrá ser robada o leída con fines maliciosos (Parra #[em et al], 2019).
     .row.justify-content-center.mb-5
       .col-lg-10(zoom-in): img(src='@/assets/curso/temas/tema1/12.svg', alt='')
     .row.justify-content-center.mb-5
@@ -160,13 +160,13 @@
           div(titulo="Cifrado DES")
             p.mb-0 Se define como “el estándar de cifrado de datos” trabaja sobre el método simétrico. Es un cifrado antiguo, por esto no es recomendable su uso.
           div(titulo="Cifrado 3DES")
-            p.mb-0 Este se define como “el estándar de cifrado triple de datos” trabaja sobre el método simétrico, al igual que el anterior cifrado. Se usa la palabra triple, ya que los datos pasan tres veces durante el proceso de cifrado. Este tipo de cifrado poco a poco va perdiendo fuerza, aun cuando sigue siendo una solución que brinda confiabilidad en el cifrado del hardware para las organizaciones financieras e industriales.
+            p.mb-0 Este se define como “el estándar de cifrado triple de datos” trabaja sobre el método simétrico, al igual que el anterior cifrado. Se usa la palabra triple, ya que los datos pasan tres veces durante el proceso de cifrado. Este tipo de cifrado poco a poco va perdiendo fuerza, aun cuando sigue siendo una solución que brinda confiabilidad en el cifrado del #[em hardware] para las organizaciones financieras e industriales.
           div(titulo="Cifrado AES ")
-            p.mb-0 Se traduce en “estándar de cifrado avanzado”, ya que se desarrolló para la actualización del algoritmo DES original. Este cifrado es utilizado comúnmente por las aplicaciones de mensajería, por ejemplo WhatsApp y el software de comprensión de archivos WinZip.
+            p.mb-0 Se traduce en “estándar de cifrado avanzado”, ya que se desarrolló para la actualización del algoritmo DES original. Este cifrado es utilizado comúnmente por las aplicaciones de mensajería, por ejemplo #[em WhatsApp] y el #[em software] de comprensión de archivos WinZip.
           div(titulo="Cifrado RSA")
-            p.mb-0 Es un algoritmo de cifrado asimétrico con disponibilidad amplia para el público, este es popular por la longitud de su clave, por lo tanto genera confiabilidad en la transmisión de datos. RSA es la sigla de “Riverst, Shamir y Adleman” estos son los apellidos de los autores que describieron en primera instancia este algoritmo.
-          div(titulo="Cifrado Twofish ")
-            p.mb-0 Es un algoritmo de cifrado utilizado tanto para el software como para el hardware. Es considerado como uno de los cifrados más rápidos, no está patentado, lo cual hace su disponibilidad de manera gratuita, este cifrado es utilizado en el software como TrueCrypt.
+            p.mb-0 Es un algoritmo de cifrado asimétrico con disponibilidad amplia para el público, este es popular por la longitud de su clave, por lo tanto genera confiabilidad en la transmisión de datos. RSA es la sigla de #[em “Riverst, Shamir y Adleman”] estos son los apellidos de los autores que describieron en primera instancia este algoritmo.
+          div(titulo="Cifrado <em>Twofish</em>")
+            p.mb-0 Es un algoritmo de cifrado utilizado tanto para el #[em software] como para el #[em hardware]. Es considerado como uno de los cifrados más rápidos, no está patentado, lo cual hace su disponibilidad de manera gratuita, este cifrado es utilizado en el #[em software] como #[em TrueCrypt].
           div(titulo="Cifrado RC4 ")
             p.mb-0 Es utilizado generalmente en enrutadores inalámbricos, ya que se implementa en WEP y WPA.
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/14.png', alt='')
@@ -191,7 +191,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/16.svg', alt='')
           .col-lg-10(data-aos="fade-left")
-            p Es una disciplina de la ciberseguridad, esta ayuda a garantizar los datos y software que son almacenados en la nube, incluyendo credenciales privadas y datos seguros que utilizan infraestructura tecnológica en línea. El aseguramiento de los servicios en la nube implica esfuerzos de los proveedores y de los clientes que los usan, ya sea un usuario personal u organización.
+            p Es una disciplina de la ciberseguridad, esta ayuda a garantizar los datos y #[em software] que son almacenados en la nube, incluyendo credenciales privadas y datos seguros que utilizan infraestructura tecnológica en línea. El aseguramiento de los servicios en la nube implica esfuerzos de los proveedores y de los clientes que los usan, ya sea un usuario personal u organización.
       .tarjeta.color-secundario--borde.p-4(titulo="Proveedores" style="background-color: #f5faff")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/17.svg', alt='')
@@ -201,7 +201,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/18.svg', alt='')
           .col-lg-10(data-aos="fade-left")
-            p La seguridad en la nube comprende los protocolos, tecnología y buenas prácticas que ayudan a protegerse de los entornos de la nube. El soporte de vulnerabilidades de seguridad está en manos del proveedor, los clientes deben gestionar la configuración adecuada del servicio para generar entornos seguros. Para saber cuál es el alcance de los componentes de la seguridad en la nube se describen algunos de estos elementos: redes físicas, servidores, sistemas operativos, datos, aplicaciones, middleware, plataformas de virtualización, entre otros.
+            p La seguridad en la nube comprende los protocolos, tecnología y buenas prácticas que ayudan a protegerse de los entornos de la nube. El soporte de vulnerabilidades de seguridad está en manos del proveedor, los clientes deben gestionar la configuración adecuada del servicio para generar entornos seguros. Para saber cuál es el alcance de los componentes de la seguridad en la nube se describen algunos de estos elementos: redes físicas, servidores, sistemas operativos, datos, aplicaciones, #[em middleware], plataformas de virtualización, entre otros.
       .tarjeta.color-secundario--borde.p-4(titulo="Objetivos" style="background-color: #f5faff")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/19.svg', alt='')
@@ -257,37 +257,37 @@
       .col-lg-7(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           p.text-small(numero="1" titulo="Definición ") Ayudan a establecer la unión segura entre el usuario y la internet. Esta información es transmitida a través de un túnel virtual cifrado, que esconderá la dirección IP cuando se utiliza el internet, creando invisibilidad y brindando seguridad desde ataques externos, ya que las conexiones VPN ofrecen acceso a los datos desde un túnel cifrado.
-          p.text-small(numero="2" titulo="Importancia") Un VPN ayudará a acceder a la información con restricción local desde cualquier parte que se acceda, es importante resaltar que las VPN no funcionan como antivirus, tampoco protegen el computador de intrusos externos. Lo que permite es poder crear una red local, sin la necesidad de que los usuarios estén físicamente conectados en la red, sino a través de la internet.
-          p Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
-          p.text-small(numero="3" titulo="Usos") El bloqueo de contenidos y censuras a sitios no autorizados, se ha popularizado haciendo uso de VPN falsificando la ubicación geográfica donde se encuentra el usuario. Por ejemplo, si una persona que está en Colombia y el servidor está en Francia, utilizando una VPN los servidores creerán que está navegando desde el país de Francia, dejando acceder a contenidos disponibles. Igualmente, con esta misma lógica, se puede acceder a aquellos sitios o contenidos que tuvieran una limitación o bloqueos en su país, pero no donde se encuentra el servidor VPN. En las descargas P2P (peer-to-peer), en donde algunos proveedores bloquean por completo dichas descargas, de igual forma puede usarse una red VPN, para evitar la censura de la descarga, evitando que el proveedor impida hacer este uso.
+          p.text-small(numero="2" titulo="Importancia") Un VPN ayudará a acceder a la información con restricción local desde cualquier parte que se acceda, es importante resaltar que las VPN no funcionan como antivirus, tampoco protegen el computador de intrusos externos. Lo que permite es poder crear una red local, sin la necesidad de que los usuarios estén físicamente conectados en la red, sino a través de la internet.<br><br>Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
+          p.text-small(numero="3" titulo="Usos") El bloqueo de contenidos y censuras a sitios no autorizados, se ha popularizado haciendo uso de VPN falsificando la ubicación geográfica donde se encuentra el usuario. Por ejemplo, si una persona que está en Colombia y el servidor está en Francia, utilizando una VPN los servidores creerán que está navegando desde el país de Francia, dejando acceder a contenidos disponibles. Igualmente, con esta misma lógica, se puede acceder a aquellos sitios o contenidos que tuvieran una limitación o bloqueos en su país, pero no donde se encuentra el servidor VPN. En las descargas P2P #[em (peer-to-peer)], en donde algunos proveedores bloquean por completo dichas descargas, de igual forma puede usarse una red VPN, para evitar la censura de la descarga, evitando que el proveedor impida hacer este uso.
           div.text-small(numero="4" titulo="Ventajas")
-            ul.lista-ul--color
-              li
-                i.fas.fa-check
+            ul.fa-ul
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
                 | Pueden funcionar en todas las aplicaciones, ya que se enruta todo el tráfico de internet. Además, se conecta y desconecta de manera sencilla.
               li
-                i.fas.fa-check
-                | Brinda una seguridad adicional y permite falsificar la ubicación de los equipos, evitando que el proveedor del servicio no sepa que pasa mirando videos musicales en YouTube, con una VPN no sabrán a que se dedica.
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
+                | Brinda una seguridad adicional y permite falsificar la ubicación de los equipos, evitando que el proveedor del servicio no sepa que pasa mirando videos musicales en #[em YouTube], con una VPN no sabrán a qué se dedica.
           div.text-small(numero="5" titulo="Desventajas")
-            ul.lista-ul--color
-              li
-                i.fas.fa-check
+            ul.fa-ul
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
                 | Costo
-              li
-                i.fas.fa-check
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
                 | Limitación de navegación.
 
-              li
-                i.fas.fa-check
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
                 | Seguridad no tan fiable.
 
-              li
-                i.fas.fa-check
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
                 | No siempre se puede falsear la ubicación.
 
               li
-                i.fas.fa-check
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
                 | No se puede navegar en anonimato.
+
     p.mb-5(data-aos='fade-right') Para conocer acerca de encriptación AES (sistema de sustitución y permutación), se invita a observar el siguiente video atentamente:
     figure
       .video

@@ -18,7 +18,7 @@
             p Capa de protección, a partir de ella se trabaja para prevenir todo tipo de amenazas externas, las cuales ponen en riesgo los datos. Cabe resaltar que la seguridad informática no se refiere únicamente a la tecnología para prevenir ataques, sino también, a desarrollar estrategias de prevención que ayudan a la seguridad. No es una novedad, pero los ataques informáticos cada vez son más comunes, ya que la mayoría de la información se maneja digitalmente.
               br
               br
-              |Este término generalmente, se relaciona con ciberamenazas y al cibercrimen. Sin embargo, también tiene que ver con la manera como se protege la información y se puede prever ataques cibernéticos, a los que están expuestas las empresas o personas. Estas amenazas de seguridad informática usualmente llegan por los programas dañinos o malware, que son implantados en los equipos o dispositivos por medio de la nube (Cardado, 2018).
+              |Este término generalmente, se relaciona con ciberamenazas y al cibercrimen. Sin embargo, también tiene que ver con la manera como se protege la información y se puede prever ataques cibernéticos, a los que están expuestas las empresas o personas. Estas amenazas de seguridad informática usualmente llegan por los programas dañinos o #[em malware], que son implantados en los equipos o dispositivos por medio de la nube (Cardado, 2018).
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/2.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
@@ -31,7 +31,7 @@
                 p.mb-0 #[b El #[em ransomware]:] se destaca por su capacidad de restringir el acceso a un sistema informático y pedir un rescate para eliminar el bloqueo, este tipo de ciberataque es crítico para cualquier empresa, ya que puede ocasionar una pérdida de datos de gran importancia, ocasionando incluso perjuicios económicos.
               li
                 i.fas.fa-check
-                p.mb-0 #[b Ataque de denegación de servicio:] consiste en ocasionar una caída del servidor sobrecargando su tráfico de red y generando una caída en su ancho de banda. También son utilizadas para inundar masivamente el tráfico de servicios en línea de los bancos y otras entidades financieras, generando como resultado la caída del servidor (Arroyo et al, 2020).
+                p.mb-0 #[b Ataque de denegación de servicio:] consiste en ocasionar una caída del servidor sobrecargando su tráfico de red y generando una caída en su ancho de banda. También son utilizadas para inundar masivamente el tráfico de servicios en línea de los bancos y otras entidades financieras, generando como resultado la caída del servidor (Arroyo #[em et al], 2020).
               li
                 i.fas.fa-check
                 p.mb-0 #[b Troyanos:] estos se instalan en cualquier dispositivo solo con visitar un sitio web infectado, también por descargar el adjunto de un correo electrónico o por descargar una aplicación. Una vez que este virus se instala en el celular, es capaz de saber el momento preciso en que se utilizan los servicios en línea de aplicaciones bancarias, obteniendo credenciales personales y datos bancarios.
@@ -42,16 +42,16 @@
           .col-lg-6.mb-4.mb-md-0
             h5 Amenazas
             p La ciberseguridad día tras día, enfrenta las amenazas que se mencionan a continuación:
-            ul.lista-ul--color
-              li
-                i.fas.fa-check
-                p.mb-0 Delito cibernético: son agentes personas o grupos, que violan sistemas informáticos, estos pueden llegar a causar fallas en los sistemas y así obtienen beneficios financieros.
-              li
-                i.fas.fa-check
-                p.mb-0 Ciberataques: estos generalmente atacan a servidores en búsqueda de información con fines políticos.
-              li
-                i.fas.fa-check
-                p.mb-0 Ciberterrorismo: este se basa en debilitar sistemas informáticos, de esta manera generar pánico o terror.
+            ul.fa-ul
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
+                p.mb-0 #[strong Delito cibernético]: son agentes personas o grupos, que violan sistemas informáticos, estos pueden llegar a causar fallas en los sistemas y así obtienen beneficios financieros.
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
+                p.mb-0 #[strong Ciberataques]: estos generalmente atacan a servidores en búsqueda de información con fines políticos.
+              li.mb-2
+                i.fa-li.fas.fa-check(style="color:#ffb30b")
+                p.mb-0 #[strong Ciberterrorismo]: este se basa en debilitar sistemas informáticos, de esta manera generar pánico o terror.
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/4.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
@@ -73,23 +73,23 @@
         .row.px-lg-3.p-2
           .col-lg-6.mb-4.mb-md-0
             h5 Protección del usuario
-            p La protección del usuario final es un aspecto clave en la ciberseguridad, es por esto que se utilizan protocolos criptográficos para cifrar los correos electrónicos, archivos y datos importantes. La ciberseguridad no solamente protege la información que se mueve, también permite la recuperación de información. El #[em software] de seguridad que utiliza el usuario final debe ser capaz de analizar, detectar código malicioso, poner en cuarentena y eliminarlo del equipo, este, además debe ser idóneo para descubrir código malicioso oculto, en el registro de arranque maestro (Zain et al, 2019).
+            p La protección del usuario final es un aspecto clave en la ciberseguridad, es por esto que se utilizan protocolos criptográficos para cifrar los correos electrónicos, archivos y datos importantes. La ciberseguridad no solamente protege la información que se mueve, también permite la recuperación de información. El #[em software] de seguridad que utiliza el usuario final debe ser capaz de analizar, detectar código malicioso, poner en cuarentena y eliminarlo del equipo, este, además debe ser idóneo para descubrir código malicioso oculto, en el registro de arranque maestro (Zain #[em et al], 2019).
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/7.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
         .row.px-lg-3.p-2
           .col-lg-6.mb-4.mb-md-0
             h5 Protección de ataques
-            p En la actualidad no existe nada seguro. Sin embargo, si se hace énfasis en capacitar al usuario final acerca de cómo prevenir ciberataques, se podrían mitigar estos efectos. Por ello, son primordiales las acciones como: actualizar el software, utilizar un buen antivirus, mejorar las contraseñas, establecer políticas en los correos electrónicos y evitar el uso de redes wifi en lugares públicos. Estas son las recomendaciones a seguir, para poder garantizar la seguridad.
+            p En la actualidad no existe nada seguro. Sin embargo, si se hace énfasis en capacitar al usuario final acerca de cómo prevenir ciberataques, se podrían mitigar estos efectos. Por ello, son primordiales las acciones como: actualizar el #[em software], utilizar un buen antivirus, mejorar las contraseñas, establecer políticas en los correos electrónicos y evitar el uso de redes #[em wifi] en lugares públicos. Estas son las recomendaciones a seguir, para poder garantizar la seguridad.
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/8.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
         .row.px-lg-3.p-2
           .col-lg-6.mb-4.mb-md-0
             h5 Estándares de seguridad
-            p El SGSI es un conjunto de normativas de administración de la información, se apoya en el estándar internacional ISO/IEC 27001. Este especifica los requisitos necesarios para mantener y mejorar un sistema de gestión de seguridad de la información, el estándar se enfoca en la mejora continua, planificar, hacer, controlar y actuar. El SGSI siempre buscará la accesibilidad de la información, asegurando la confidencialidad, integridad y  disponibilidad. (Zain, et al, 2019)
+            p El SGSI es un conjunto de normativas de administración de la información, se apoya en el estándar internacional ISO/IEC 27001. Este especifica los requisitos necesarios para mantener y mejorar un sistema de gestión de seguridad de la información, el estándar se enfoca en la mejora continua, planificar, hacer, controlar y actuar. El SGSI siempre buscará la accesibilidad de la información, asegurando la confidencialidad, integridad y  disponibilidad. (Zain, #[em et al], 2019)
             p Como en todo proceso de gestión, debe ser capaz de adaptarse a los cambios internos de la organización y también a los cambios del entorno.
-            p Los controles se hacen para mitigar los riesgos de los datos de la organización, algunos de ellos pueden ser: el uso de una política, que requiera la utilización de VPN, tarjetas de acceso para ingresar a algún sitio y el uso de software  antivirus. (Zain, et al, 2019)
+            p Los controles se hacen para mitigar los riesgos de los datos de la organización, algunos de ellos pueden ser: el uso de una política, que requiera la utilización de VPN, tarjetas de acceso para ingresar a algún sitio y el uso de #[em software]  antivirus. (Zain, #[em et al], 2019)
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/9.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')

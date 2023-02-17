@@ -61,7 +61,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.col-7(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/2.svg', alt='')
       .col-lg-8(data-aos="fade-left")
-        p Son un conjunto de procedimientos, guías, técnicas, metodologías, estrategias de trabajo o un consenso de experiencias profesionales en áreas de las TI, que han permitido gestionar objetivos de manera eficiente. Lo que se quiere básicamente, es buscar la estandarización de las actividades de la organización, que se relacionen en áreas de la tecnología, dando como resultado altos estándares de calidad y  excelencia. (Fernández, et al, 2014)
+        p Son un conjunto de procedimientos, guías, técnicas, metodologías, estrategias de trabajo o un consenso de experiencias profesionales en áreas de las TI, que han permitido gestionar objetivos de manera eficiente. Lo que se quiere básicamente, es buscar la estandarización de las actividades de la organización, que se relacionen en áreas de la tecnología, dando como resultado altos estándares de calidad y  excelencia. (Fernández, #[em et al], 2014)
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #d9faff ")
           p.mb-0 Una organización que está basada en buenas prácticas TI, les brindará seguridad, confianza y fuerza a sus empleados, de manera que permita tener objetivos claros. Es por esto que, las buenas prácticas deben ser el pilar organizacional, que perduren en el tiempo para  aplicarlas en la cotidianidad organizacional, para ello es fundamental contar con el conocimiento y la experiencia, acompañados de eficientes canales de comunicación.
     .row.justify-content-center.mb-5
@@ -75,7 +75,7 @@
     .row.justify-content-center.mb-5
       .col-lg-1.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/4.svg', alt='')
       .col-lg-11
-        p Existen en el mercado actualmente más de 150 herramientas de software de ITSM (Information Technology Service Management) o la gestión de servicios de tecnología de la información, que están diseñadas para que las empresas puedan automatizar procesos en la infraestructura tecnológica. Por esto, a continuación se dan a conocer algunos de los criterios para elegir una buena herramienta:
+        p Existen en el mercado actualmente más de 150 herramientas de #[em software] de ITSM #[em (Information Technology Service Management)] o la gestión de servicios de tecnología de la información, que están diseñadas para que las empresas puedan automatizar procesos en la infraestructura tecnológica. Por esto, a continuación se dan a conocer algunos de los criterios para elegir una buena herramienta:
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/5.png', alt='')
       .col-lg-7(data-aos="fade-left")
@@ -104,7 +104,7 @@
                   p Lo importante de muchas herramientas es que sean cambiantes, capaces de manejar entornos altamente dinámicos, las herramientas modernas deben ser capaces de identificar, analizar, solucionar y verificar problemas en tiempo real.
                   p.mb-0 Una de las plataformas más usadas es <em>Zendesk</em> está llena de oportunidades para la personalización en el flujo de trabajo con opciones de código bajo o sin código. Este sistema quiere posibilitar la producción de varias presentaciones, el personal TI puede rastrear  seleccionar <em>tickets</em>, mientras el usuario obtiene una interfaz de usuario simplificada, que es utilizada para recopilar información.
 
-    p.mb-5(data-aos='fade-right') Otra de las plataformas usadas es #[em Write], ya que se puede personalizar el #[em software] para gestionar los escritorios de TI, es una herramienta para organizar y rastrear el progreso del equipo, con herramientas de informes completas, utilizando diagramas de Gantt y tableros Kanban.
+    p.mb-5(data-aos='fade-right') Otra de las plataformas usadas es #[em Write], ya que se puede personalizar el #[em software] para gestionar los escritorios de TI, es una herramienta para organizar y rastrear el progreso del equipo, con herramientas de informes completas, utilizando diagramas de #[em Gantt] y tableros #[em Kanban].
     p #[em Easyvista] es una plataforma ITSM, que facilita a las empresas del área farmacéutica la entrega de servicios, el #[em software] se ha enfocado en ofrecerle la mejor experiencia al cliente. Este se divide en dos módulos para la automatización en la gestión de servicios y para ofrecer respuestas basadas en la inteligencia artificial.
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/7.svg', alt='')

@@ -15,13 +15,13 @@
         .col-lg-7.mb-4.mb-md-0
           p Debido a los ataques que se presentan diariamente en las redes, si no se tiene una visión de lo que está sucediendo en la red o en los equipos, se podría generar una falla o pérdidas de información masiva. Por esta razón, una opción es la utilización de bitácoras, ya que mostrará eventos en donde se podrán gestionar los dispositivos conectados. Una de las herramientas que puede ayudar en este propósito es el #[em  Active Directory de Windows.]
           p Todas las operaciones del #[em Active Directory] afectan al usuario que accede y al funcionamiento de las máquinas de la red, cada operación de los objetos se convierte en una evidencia. De esta manera, el poder conocer lo que sucede diariamente en la red beneficia directamente la seguridad; pues cada vez que exista una problemática en la infraestructura tecnológica, basta con hacer una revisión de las bitácoras y así poder tomar soluciones a los inconvenientes.
-          p Para muchos administradores de TI, cuando se habla de bitácoras se refiere a los registros o log de los sistemas, puede decirse que una bitácora almacena información de los eventos del sistema y en esta se pueden ver cada uno de los registros el sistema.
+          p Para muchos administradores de TI, cuando se habla de bitácoras se refiere a los registros o #[em log] de los sistemas, puede decirse que una bitácora almacena información de los eventos del sistema y en esta se pueden ver cada uno de los registros el sistema.
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema4/2.png', alt='Texto que describa la imagen')
       .row(titulo="¿Para qué se utilizan?")
         .col-lg-7.mb-4.mb-md-0
-          p Las bitácoras son comúnmente utilizadas para la detección de actividades sospechosas en el sistema, estas pueden ser almacenadas de manera local o remota, el encargado de recolectar la información de todas las actividades del sistema es el demonio syslogd. También las bitácoras de tipo log son herramientas que permiten registrar, analizar, detectar y notificar, todos los eventos del sistema y es la estructura utilizada para guardar todas las acciones generadas en la base de datos.
+          p Las bitácoras son comúnmente utilizadas para la detección de actividades sospechosas en el sistema, estas pueden ser almacenadas de manera local o remota, el encargado de recolectar la información de todas las actividades del sistema es el demonio #[em syslogd]. También las bitácoras de tipo #[em log] son herramientas que permiten registrar, analizar, detectar y notificar, todos los eventos del sistema y es la estructura utilizada para guardar todas las acciones generadas en la base de datos.
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema4/3.png', alt='Texto que describa la imagen')

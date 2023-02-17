@@ -72,20 +72,6 @@ export default {
         numero: '5',
         titulo: 'Gestión TI',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Buenas prácticas',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Plataformas de administración',
-            hash: 't_5_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -130,8 +116,7 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Sistemas de Gestión de relaciones con clientes en las empresas (CRM).',
+      tema: 'Gestión de redundancia de servidores.',
       referencia:
         'Fernández, M., Navarro, M., y Otero, M. (2014). <em> Sistemas de gestión de relaciones con clientes en las Empresas (CRM)</em>. Universidad De Alcalá, Print. Textos Universitarios.',
       tipo: 'Libro PDF',
@@ -139,8 +124,7 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB42931',
     },
     {
-      tema:
-        'Servicios de autenticación y autorización orientados a internet de las cosas.',
+      tema: 'Gestión de redundancia de servidores.',
       referencia:
         'Parra, M, y Paul, E. (2019). <em> Servicios de autenticación y autorización orientados a Internet de las cosas.</em> Telem@tica, Vol.17',
       tipo: 'Libro PDF',
@@ -148,20 +132,20 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_fe2fd93ea30149c5ac6bd70d267159f7',
     },
     {
-      tema: 'Windows Server 2008: Los Servicios De Red TCP/IP.',
-      referencia:
-        'Philippe, F. (2010). <em> Windows Server 2008: Los Servicios de red TCP/IP.</em> Ediciones ENI. ',
-      tipo: 'Libro PDF',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP ',
-    },
-    {
-      tema: 'Seguridad informática.',
+      tema: 'Ciberseguridad',
       referencia:
         'Scolnik, H, y Bär, N. (2016). <em>Qué es la seguridad informática.</em> Editorial Planeta Paidós.',
       tipo: 'Libro PDF',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000094337',
+    },
+    {
+      tema: 'Gestión TI',
+      referencia:
+        'Philippe, F. (2010). <em> Windows Server 2008: Los Servicios de red TCP/IP.</em> Ediciones ENI. ',
+      tipo: 'Libro PDF',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP ',
     },
   ],
   glosario: [
