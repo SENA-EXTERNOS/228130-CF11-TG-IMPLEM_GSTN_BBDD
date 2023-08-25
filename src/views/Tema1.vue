@@ -28,13 +28,13 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
             p Para entender de la mejor manera el funcionamiento de la tolerancia a fallas en un sistema, primero se debe revisar el significado de ser tolerante a fallos, ya que este se relaciona con los sistemas fiables; término que comprende varios requerimientos, tales como tener disponibilidad, confiabilidad y seguridad. Se puede definir que un sistema tiene disponibilidad cuando está listo para ser utilizado de inmediato, que pueda ser usado de manera correcta en cualquier momento y se encuentre disponible para la realización de cualquiera de sus funciones.
-            p.mb-0 Si un sistema de archivos es tolerante a fallos significa que este, tiene un sistema de recuperación de transacciones. Además, debe guardar copias de seguridad en distintas máquinas para asegurar su disponibilidad, para el desarrollo de este se aplica un algoritmo que permita gestionar las copias de forma consistente. Igualmente, es muy recomendable el uso de memorias cache para agilizar el acceso a los archivos.
+            p.mb-0 Si un sistema de archivos es tolerante a fallos, significa que este tiene un sistema de recuperación de transacciones. Además, debe guardar copias de seguridad en distintas máquinas para asegurar su disponibilidad, para el desarrollo de este se aplica un algoritmo que permita gestionar las copias de forma consistente. Igualmente, es muy recomendable el uso de memorias caché para agilizar el acceso a los archivos.
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/4.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
             p Es fundamental hablar de los planes de contingencia, ya que esta es una estrategia planificada con una serie procedimientos que permiten desarrollar soluciones alternativas y posibiliten reemplazar rápidamente los servicios en las infraestructuras tecnológicas. El objetivo de un plan de contingencia es establecer procedimientos, indicando acciones que deben tomarse a la hora de un incidente o riesgo; también, debe optimizar el uso de los recursos y materiales a utilizar. Por último, llevar el control adecuado de los procedimientos que se establecen.
-            p.mb-0 Todo plan de contingencia debe tener las siguientes etapas: evaluación, planificación, pruebas, ejecución y recuperación. Las primeras tres etapas pueden hacer alusión a los componentes preventivos y las últimas a la ejecución del plan. Por su parte, los riesgos se pueden transferir, eliminar o aceptar, esto dependerá de los factores como la probabilidad de ocurrencia o el impacto del del riesgo. (Sinisterra, #[em et al], 2012)
+            p.mb-0 Todo plan de contingencia debe tener las siguientes etapas: evaluación, planificación, pruebas, ejecución y recuperación. Las primeras tres etapas pueden hacer alusión a los componentes preventivos y las últimas a la ejecución del plan. Por su parte, los riesgos se pueden transferir, eliminar o aceptar, esto dependerá de los factores como la probabilidad de ocurrencia o el impacto del riesgo. (Sinisterra, #[em et al], 2012)
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/5.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
@@ -53,7 +53,7 @@
           li
             .lista-ol--cuadro__vineta
               span(style="color: #12263f").fw-bold 1
-            | Mantener un formato interno.
+            | #[b Mantener un formato interno.]
           li
             .lista-ol--cuadro__vineta
               span(style="color: #12263f").fw-bold 2
@@ -98,39 +98,36 @@
 
     .d-flex.justify-content-start.mb-3
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Figura 1
         span #[em Autenticación web]
 
     .d-flex.justify-content-center.mb-4
       ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/info_auth_web.png', alt='Autenticación web')
+            img(src='@/assets/curso/temas/tema1/info_auth_web.svg', alt='Autenticación web')
 
         .tarjeta.tarjeta.color-tema(x="80%" y="15%" numero="+")
-          .tarjeta-header
-            .h5.mb-2.p-2 Autenticación básica HTTP
+          
           .p-3
             p Es la más simple, esta forma requiere que el usuario de inicio en la sesión utilizando datos de credenciales como lo es el usuario y la contraseña. Esta información es codificada en #[em base64]; esto quiere decir que la información que es enviada no es segura y hay un riesgo elevado de ser #[em hackeados] por un tercero. (Parra #[em et al], 2019)
 
         .tarjeta.color-tema(x="80%" y="38%" numero="+")
-          .tarjeta-header
-            .h5.mb-2.p-2 Autenticación digest HTTP
+          
 
           .p-3
             p Funciona parecido a la autenticación básica, inicialmente el servidor solicita la información de credenciales, luego el servidor hace una comparación en las credenciales de autenticación con lo que está en el archivo, si este coincide concederá el acceso.
-            p La diferencia radica en que la conexión se realiza de manera segura, esto es porque las contraseñas son gestionadas y almacenadas en la base de datos en un formulario cifrado. De esta manera se asegura la información, ya que ni el administrador podrá acceder a la base de datos, así la integridad de los datos es mucho más segura y solo pueden ser leídos por el servidor #[em web]. (Arencibia, 2019)
+            p La diferencia radica en que la conexión se realiza de manera segura, esto es, porque las contraseñas son gestionadas y almacenadas en la base de datos en un formulario cifrado. De esta manera se asegura la información, ya que ni el administrador podrá acceder a la base de datos, así la integridad de los datos es mucho más segura y solo pueden ser leídos por el servidor #[em web]. (Arencibia, 2019)
 
         .tarjeta.color-tema(x="80%" y="71%" numero="+")
-          .tarjeta-header
-            .h5.mb-2.p-2 Autenticación de cliente HTTPS
+          
 
           .p-3
             p Se logra cuando se combina el protocolo HTTP con el SSL #[em (Socket Layer Secure)], dando como resultado la operatividad del contenido en un circuito cerrado, sin ninguna interferencia, permitiendo que el navegador #[em web] haga la verificación de cada página que se encuentre en el sitio #[em web], haciendo uso de la lectura del certificado de clave pública del #[em secure socket] y haciendo la comparación entre la información guardada del certificado de seguridad del sitio.
             p El protocolo HTTPS es utilizando en entidades donde la información debe ser confidencial como bancos, sitios de compras, entre otras. La autenticación debe proporcionar un nivel alto de seguridad, ya que cada operación de conexión e intercambio cliente-servidor debe estar cifrada.
 
         .tarjeta.color-tema(x="80%" y="93%" numero="+")
-          .tarjeta-header
-            .h5.mb-2.p-2 Autenticación basadas en formularios
+          
 
           .p-3
             p Se utiliza para recolectar datos de usuario que no tienen una necesidad alta de seguridad como encuestas, formularios de contactos. Los sitios de registro utilizan la autenticación basada en formulario, por esta razón es fundamental que para la autenticación se identifiquen los campos como requeridos. De esta forma se asegura que los campos sean llenados correctamente y el formulario sea diligenciado en su totalidad.
@@ -152,7 +149,7 @@
       .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/14.svg', alt='')
       .col-lg-8
         p Existen dos métodos de cifrado comunes, estos son: el cifrado simétrico y el asimétrico. Las claves de cifrado simétrico se dan a conocer como clave privada, la clave que se usa en la codificación es la misma que se utiliza para descodificar, lo que resulta más conveniente para usuarios de nivel individual, este método es más rápido que el cifrado asimétrico.
-        p El cifrado asimétrico, utiliza dos claves que son diferentes, unas privadas y una pública que tienen una vinculación matemática. Estas son vinculadas, pero no son claves idénticas, es por eso el concepto asimétrico, aquí el propietario mantiene oculta la clave privada mientras que la clave pública se comparte entre los receptores autorizados.
+        p El cifrado asimétrico utiliza dos claves que son diferentes, unas privadas y una pública que tienen una vinculación matemática. Estas son vinculadas, pero no son claves idénticas, es por eso el concepto asimétrico, aquí el propietario mantiene oculta la clave privada, mientras que la clave pública se comparte entre los receptores autorizados.
     p.mb-5(data-aos='fade-right') A continuación, se presentan ejemplos de algoritmos de cifrado, estos se pueden adaptar según los fines. Entre los cuales se encuentran:
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -257,7 +254,7 @@
       .col-lg-7(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           p.text-small(numero="1" titulo="Definición ") Ayudan a establecer la unión segura entre el usuario y la internet. Esta información es transmitida a través de un túnel virtual cifrado, que esconderá la dirección IP cuando se utiliza el internet, creando invisibilidad y brindando seguridad desde ataques externos, ya que las conexiones VPN ofrecen acceso a los datos desde un túnel cifrado.
-          p.text-small(numero="2" titulo="Importancia") Un VPN ayudará a acceder a la información con restricción local desde cualquier parte que se acceda, es importante resaltar que las VPN no funcionan como antivirus, tampoco protegen el computador de intrusos externos. Lo que permite es poder crear una red local, sin la necesidad de que los usuarios estén físicamente conectados en la red, sino a través de la internet.<br><br>Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
+          p.text-small(numero="2" titulo="Importancia") Una VPN ayudará a acceder a la información con restricción local desde cualquier parte que se acceda, es importante resaltar que las VPN no funcionan como antivirus, tampoco protegen el computador de intrusos externos. Lo que permite es poder crear una red local, sin la necesidad de que los usuarios estén físicamente conectados en la red, sino a través de la internet.<br><br>Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
           p.text-small(numero="3" titulo="Usos") El bloqueo de contenidos y censuras a sitios no autorizados, se ha popularizado haciendo uso de VPN falsificando la ubicación geográfica donde se encuentra el usuario. Por ejemplo, si una persona que está en Colombia y el servidor está en Francia, utilizando una VPN los servidores creerán que está navegando desde el país de Francia, dejando acceder a contenidos disponibles. Igualmente, con esta misma lógica, se puede acceder a aquellos sitios o contenidos que tuvieran una limitación o bloqueos en su país, pero no donde se encuentra el servidor VPN. En las descargas P2P #[em (peer-to-peer)], en donde algunos proveedores bloquean por completo dichas descargas, de igual forma puede usarse una red VPN, para evitar la censura de la descarga, evitando que el proveedor impida hacer este uso.
           div.text-small(numero="4" titulo="Ventajas")
             ul.fa-ul

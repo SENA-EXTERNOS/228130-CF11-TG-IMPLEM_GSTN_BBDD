@@ -172,7 +172,7 @@ export default {
     {
       termino: 'HTTP',
       significado:
-        'es el protocolo de transferencia de hipertexto. es el protocolo de comunicación que permite las transferencias de información a través de archivos en la <em> World Wide Web</em>.',
+        'es el protocolo de transferencia de hipertexto. Es el protocolo de comunicación que permite las transferencias de información a través de archivos en la <em> World Wide Web</em>.',
     },
     {
       termino: '<em>Middleware</em>',

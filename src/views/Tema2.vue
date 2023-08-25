@@ -66,7 +66,7 @@
         .row.px-lg-3.p-2
           .col-lg-6.mb-4.mb-md-0
             h5 Prevención
-            p Otra forma de prevenir ataques a las bases de datos es utilizando herramientas que analicen los datos y el registro de ingresos no autorizados. Generalmente los intentos no autorizados, pueden ser una señal para dar una alerta, de que la red podría estar amenazada. Por esta razón, es importante tener el sistema actualizado, ya que este proporcionará un mejor soporte frente a la seguridad informática. Entre más antiguo sea un sistema, tendrá mayores probabilidades de ser atacado, debido a que proporcionarán tecnologías rústicas de protección contra intrusos (Cardador, 2018).
+            p Otra forma de prevenir ataques a las bases de datos es utilizando herramientas que analicen los datos y el registro de ingresos no autorizados. Generalmente, los intentos no autorizados pueden ser una señal para dar una alerta, de que la red podría estar amenazada. Por esta razón, es importante tener el sistema actualizado, ya que este proporcionará un mejor soporte frente a la seguridad informática. Entre más antiguo sea un sistema, tendrá mayores probabilidades de ser atacado, debido a que proporcionarán tecnologías rústicas de protección contra intrusos (Cardador, 2018).
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/tema2/6.jpg', alt='Texto que describa la imagen' style='border-radius: 10px')
@@ -133,27 +133,21 @@
             img(src='@/assets/curso/temas/tema2/12.svg', alt='Texto que describa la imagen')
         .tarjeta.p-3(x="7%" y="82%" numero="+" style="background-color: #ffecc1 ")
           .text-center
-            .h5.mb-2 #[em Malware]
-            p Se define como un #[em software] que tiene código malicioso, encabeza la lista ya que es unos de los métodos más comunes para el robo o daño de la información. Estos #[em software] son creados por un #[em hacker] y tienen como función infiltrarse en correos electrónicos fácilmente, para luego ganar dinero o robar algún tipo de información.
+            p Se define como un #[em software] que tiene código malicioso, encabeza la lista, ya que es uno de los métodos más comunes para el robo o daño de la información. Estos #[em software] son creados por un #[em hacker] y tienen como función infiltrarse en correos electrónicos fácilmente, para luego ganar dinero o robar algún tipo de información.
         .tarjeta.p-3(x="24.5%" y="82%" numero="+" style="background-color: #ffecc1 ")
           .text-center
-            .h5.mb-2 Virus
             p Es un #[em software] capaz de copiarse a sí mismo, se incrusta en algún archivo y luego se extiende en todo el sistema, infectando a cada uno de los archivos utilizando un código malicioso.
         .tarjeta.p-3(x="41.5%" y="82%" numero="+" style="background-color: #ffecc1 ")
           .text-center
-            .h5.mb-2 Troyanos
             p Es capaz de esconderse y darse a conocer como si fuera una aplicación original, los cibercriminales utilizan los troyanos para engañar a los usuarios y así estos puedan dañar un sistema informático.
         .tarjeta.p-3(x="58.4%" y="82%" numero="+" style="background-color: #ffecc1 ")
           .text-center
-            .h5.mb-2 #[em Spyware]
             p Son aplicaciones con características muy específicas, estos se encargan de robar la información en secreto y enviarla a los #[em hackers.] Podría capturar lo que se escribe, los datos de las tarjetas de crédito, entre otros.
         .tarjeta.p-3(x="75.4%" y="82%" numero="+" style="background-color: #ffecc1 ")
           .text-center
-            .h5.mb-2 #[em Ransomware]
             p Este tipo de #[em software] bloquea los archivos del usuario y amenaza con borrarlos del sistema, hasta que haga un pago por el rescate de la información.
         .tarjeta.p-3(x="92.8%" y="82%" numero="+" style="background-color: #ffecc1 ")
           .text-center
-            .h5.mb-2 #[em Adware]
             p Es uno de los #[em softwares] más comunes, ya que se encuentra mucho en las publicidades de aplicaciones y sitios web. Este es capaz de insertar un #[em malware].
 
 
