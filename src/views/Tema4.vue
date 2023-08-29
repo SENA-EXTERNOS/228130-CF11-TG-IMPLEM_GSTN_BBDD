@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Bitácoras, informes de autoría
+      h1 Bitácoras, informes de auditoría
     .row.justify-content-center.mb-5
       .col-lg-1.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/1.svg', alt='')
       .col-lg-11
