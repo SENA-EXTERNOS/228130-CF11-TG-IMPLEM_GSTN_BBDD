@@ -33,7 +33,7 @@
               img(src='@/assets/curso/temas/tema1/4.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-md-0
-            p Es fundamental hablar de los planes de contingencia, ya que esta es una estrategia planificada con una serie procedimientos que permiten desarrollar soluciones alternativas y posibiliten reemplazar rápidamente los servicios en las infraestructuras tecnológicas. El objetivo de un plan de contingencia es establecer procedimientos, indicando acciones que deben tomarse a la hora de un incidente o riesgo; también, debe optimizar el uso de los recursos y materiales a utilizar. Por último, llevar el control adecuado de los procedimientos que se establecen.
+            p Es fundamental hablar de los planes de contingencia, ya que esta es una estrategia planificada con una serie de procedimientos que permiten desarrollar soluciones alternativas y posibiliten reemplazar rápidamente los servicios en las infraestructuras tecnológicas. El objetivo de un plan de contingencia es establecer procedimientos, indicando acciones que deben tomarse a la hora de un incidente o riesgo; también, debe optimizar el uso de los recursos y materiales a utilizar. Por último, llevar el control adecuado de los procedimientos que se establecen.
             p.mb-0 Todo plan de contingencia debe tener las siguientes etapas: evaluación, planificación, pruebas, ejecución y recuperación. Las primeras tres etapas pueden hacer alusión a los componentes preventivos y las últimas a la ejecución del plan. Por su parte, los riesgos se pueden transferir, eliminar o aceptar, esto dependerá de los factores como la probabilidad de ocurrencia o el impacto del riesgo. (Sinisterra, #[em et al], 2012)
           .col-lg-6.col-8
               img(src='@/assets/curso/temas/tema1/5.jpg', alt='Texto que describa la imagen' style='border-radius: 20px')
@@ -70,7 +70,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/8.svg', alt='Texto que describa la imagen' )
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 Para la aprobación de un procedimiento de operación es necesario conocer su ciclo de vida. Este se compone de tres elementos que son:
+        p.mb-4 Para la aprobación de un procedimiento de operación es necesario conocer su ciclo de vida. Este se compone de tres elementos que son:
         ol.lista-ol--cuadro
           li
             .lista-ol--cuadro__vineta
@@ -94,7 +94,7 @@
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/10.png', alt='Texto que describa la imagen' )
       .col-lg-7(data-aos="fade-left")
         p.mb-0 Una directiva de autenticación se compone de una expresión y de una acción, luego de crear la directiva es enviada a un servidor de autenticación y este asigna una prioridad. Es importante aclarar que una autenticación #[em web] no utiliza un formato rígido, en este se debe decir exactamente qué información necesitará y en qué formato al crear la acción. La autenticación #[em web] se puede definir como la comunicación entre el navegador y el servidor #[em web], donde se hace necesario el protocolo de transferencia de hipertexto y los mensajes de error. Esta comunicación se hace de la siguiente manera: el navegador #[em web] hace una solicitud, como HTTP-GET, luego el servidor realiza una verificación de autenticación, si este no es correcto es porque requiere autenticación. Después el navegador #[em web] utiliza la respuesta del servidor para generar una nueva solicitud, esta contendrá información de la autenticación. Finalmente, el servidor #[em web] realiza la verificación de la autenticación, si esta es correcta, el servidor devolverá al navegador #[em web] la información que fue solicitada. (Arencibia, 2019)
-    p.mb-5(data-aos='fade-right') Existen varios tipos de autenticación #[em web], esta permite la verificación de la identidad de un miembro y determinar el nivel de acceso que tiene en el sitio. Por ejemplo, si es un miembro solo lector o administrador, por esto es gran importancia nombrar cada uno de los tipos de autenticación #[em web].
+    p.mb-5(data-aos='fade-right') Existen varios tipos de autenticación web, esta permite la verificación de la identidad de un miembro y determinar el nivel de acceso que tiene en el sitio. Por ejemplo, si es un miembro solo lector o administrador, por esto es de gran importancia nombrar cada uno de los tipos de autenticación web.
 
     .d-flex.justify-content-start.mb-3
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -108,26 +108,26 @@
             img(src='@/assets/curso/temas/tema1/info_auth_web.svg', alt='Autenticación web')
 
         .tarjeta.tarjeta.color-tema(x="80%" y="15%" numero="+")
-          
+
           .p-3
             p Es la más simple, esta forma requiere que el usuario de inicio en la sesión utilizando datos de credenciales como lo es el usuario y la contraseña. Esta información es codificada en #[em base64]; esto quiere decir que la información que es enviada no es segura y hay un riesgo elevado de ser #[em hackeados] por un tercero. (Parra #[em et al], 2019)
 
         .tarjeta.color-tema(x="80%" y="38%" numero="+")
-          
+
 
           .p-3
             p Funciona parecido a la autenticación básica, inicialmente el servidor solicita la información de credenciales, luego el servidor hace una comparación en las credenciales de autenticación con lo que está en el archivo, si este coincide concederá el acceso.
             p La diferencia radica en que la conexión se realiza de manera segura, esto es, porque las contraseñas son gestionadas y almacenadas en la base de datos en un formulario cifrado. De esta manera se asegura la información, ya que ni el administrador podrá acceder a la base de datos, así la integridad de los datos es mucho más segura y solo pueden ser leídos por el servidor #[em web]. (Arencibia, 2019)
 
         .tarjeta.color-tema(x="80%" y="71%" numero="+")
-          
+
 
           .p-3
             p Se logra cuando se combina el protocolo HTTP con el SSL #[em (Socket Layer Secure)], dando como resultado la operatividad del contenido en un circuito cerrado, sin ninguna interferencia, permitiendo que el navegador #[em web] haga la verificación de cada página que se encuentre en el sitio #[em web], haciendo uso de la lectura del certificado de clave pública del #[em secure socket] y haciendo la comparación entre la información guardada del certificado de seguridad del sitio.
             p El protocolo HTTPS es utilizando en entidades donde la información debe ser confidencial como bancos, sitios de compras, entre otras. La autenticación debe proporcionar un nivel alto de seguridad, ya que cada operación de conexión e intercambio cliente-servidor debe estar cifrada.
 
         .tarjeta.color-tema(x="80%" y="93%" numero="+")
-          
+
 
           .p-3
             p Se utiliza para recolectar datos de usuario que no tienen una necesidad alta de seguridad como encuestas, formularios de contactos. Los sitios de registro utilizan la autenticación basada en formulario, por esta razón es fundamental que para la autenticación se identifiquen los campos como requeridos. De esta forma se asegura que los campos sean llenados correctamente y el formulario sea diligenciado en su totalidad.
@@ -206,16 +206,16 @@
             ul.lista-ul--color
               li
                 i.fas.fa-check
-                | Permitir recuperar la información en caso de un fallo o contingencia.
+                span Permitir recuperar la información en caso de un fallo o contingencia.
               li
                 i.fas.fa-check
-                | Brindar protección al almacenamiento mediante cifrados avanzados.
+                span Brindar protección al almacenamiento mediante cifrados avanzados.
               li
                 i.fas.fa-check
-                | Evitar errores humanos.
+                span Evitar errores humanos.
               li
                 i.fas.fa-check
-                | Reducir el impacto de cualquier compromiso del sistema.
+                span Reducir el impacto de cualquier compromiso del sistema.
       .tarjeta.color-secundario--borde.p-4(titulo="Amenazas" style="background-color: #f5faff")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/20.svg', alt='')
@@ -224,13 +224,13 @@
             ul.lista-ul--color
               li
                 i.fas.fa-check
-                | Riesgos en la infraestructura e interrupciones de los servicios.
+                span Riesgos en la infraestructura e interrupciones de los servicios.
               li
                 i.fas.fa-check
-                | Amenazas generadas por errores humanos, como lo es la mala administración de los entornos.
+                span Amenazas generadas por errores humanos, como lo es la mala administración de los entornos.
               li
                 i.fas.fa-check
-                | Amenazas externas generadas por agentes externos como lo son #[em hacker, phishing, malware].
+                span Amenazas externas generadas por agentes externos como lo son #[em hacker, phishing, malware].
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square(style="color: #ffb30b").me-3
       h3.mb-0 Problemas con la privacidad
@@ -248,42 +248,42 @@
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square(style="color: #ffb30b").me-3
       h3.mb-0 Conexiones VPN
-    p.mb-5(data-aos='fade-right') A continuación, se presentan aspectos acerca de la seguridad en la nube, como su definición, proveedores, objetivos y amenazas:
+    p.mb-5(data-aos='fade-right') A continuación, se presentan aspectos acerca de las conexiones VPN, como su definición, importancia, usos, ventajas y desventajas.
     .row.justify-content-center.mb-5
       .col-lg-5.col-7(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/23.svg', alt='')
       .col-lg-7(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          p.text-small(numero="1" titulo="Definición ") Ayudan a establecer la unión segura entre el usuario y la internet. Esta información es transmitida a través de un túnel virtual cifrado, que esconderá la dirección IP cuando se utiliza el internet, creando invisibilidad y brindando seguridad desde ataques externos, ya que las conexiones VPN ofrecen acceso a los datos desde un túnel cifrado.
-          p.text-small(numero="2" titulo="Importancia") Una VPN ayudará a acceder a la información con restricción local desde cualquier parte que se acceda, es importante resaltar que las VPN no funcionan como antivirus, tampoco protegen el computador de intrusos externos. Lo que permite es poder crear una red local, sin la necesidad de que los usuarios estén físicamente conectados en la red, sino a través de la internet.<br><br>Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
-          p.text-small(numero="3" titulo="Usos") El bloqueo de contenidos y censuras a sitios no autorizados, se ha popularizado haciendo uso de VPN falsificando la ubicación geográfica donde se encuentra el usuario. Por ejemplo, si una persona que está en Colombia y el servidor está en Francia, utilizando una VPN los servidores creerán que está navegando desde el país de Francia, dejando acceder a contenidos disponibles. Igualmente, con esta misma lógica, se puede acceder a aquellos sitios o contenidos que tuvieran una limitación o bloqueos en su país, pero no donde se encuentra el servidor VPN. En las descargas P2P #[em (peer-to-peer)], en donde algunos proveedores bloquean por completo dichas descargas, de igual forma puede usarse una red VPN, para evitar la censura de la descarga, evitando que el proveedor impida hacer este uso.
-          div.text-small(numero="4" titulo="Ventajas")
+          p(numero="1" titulo="Definición ") Ayudan a establecer la unión segura entre el usuario y la internet. Esta información es transmitida a través de un túnel virtual cifrado, que esconderá la dirección IP cuando se utiliza el internet, creando invisibilidad y brindando seguridad desde ataques externos, ya que las conexiones VPN ofrecen acceso a los datos desde un túnel cifrado.
+          p(numero="2" titulo="Importancia") Una VPN ayudará a acceder a la información con restricción local desde cualquier parte que se acceda, es importante resaltar que las VPN no funcionan como antivirus, tampoco protegen el computador de intrusos externos. Lo que permite es poder crear una red local, sin la necesidad de que los usuarios estén físicamente conectados en la red, sino a través de la internet.<br><br>Son de gran importancia en el sector corporativo, ya que pueden ofrecer varios usos como el teletrabajo, este es el caso de los trabajadores que no están en una oficina o que están por fuera, o de compañías con sucursales en varios sitios, que necesitan estar en una red privada. En este sentido, el riesgo en la seguridad de una empresa disminuye si el trabajador y la empresa se conectan mediante una conexión VPN, ya que este acceso siempre estará protegido gracias al cifrado y el trabajador podrá acceder como si estuviera físicamente en la red de la empresa.
+          p(numero="3" titulo="Usos") El bloqueo de contenidos y censuras a sitios no autorizados, se ha popularizado haciendo uso de VPN falsificando la ubicación geográfica donde se encuentra el usuario. Por ejemplo, si una persona que está en Colombia y el servidor está en Francia, utilizando una VPN los servidores creerán que está navegando desde el país de Francia, dejando acceder a contenidos disponibles. Igualmente, con esta misma lógica, se puede acceder a aquellos sitios o contenidos que tuvieran una limitación o bloqueos en su país, pero no donde se encuentra el servidor VPN. En las descargas P2P #[em (peer-to-peer)], en donde algunos proveedores bloquean por completo dichas descargas, de igual forma puede usarse una red VPN, para evitar la censura de la descarga, evitando que el proveedor impida hacer este uso.
+          div(numero="4" titulo="Ventajas")
             ul.fa-ul
               li.mb-2
                 i.fa-li.fas.fa-check(style="color:#ffb30b")
-                | Pueden funcionar en todas las aplicaciones, ya que se enruta todo el tráfico de internet. Además, se conecta y desconecta de manera sencilla.
+                span Pueden funcionar en todas las aplicaciones, ya que se enruta todo el tráfico de internet. Además, se conecta y desconecta de manera sencilla.
               li
                 i.fa-li.fas.fa-check(style="color:#ffb30b")
-                | Brinda una seguridad adicional y permite falsificar la ubicación de los equipos, evitando que el proveedor del servicio no sepa que pasa mirando videos musicales en #[em YouTube], con una VPN no sabrán a qué se dedica.
+                span Brinda una seguridad adicional y permite falsificar la ubicación de los equipos, evitando que el proveedor del servicio no sepa que pasa mirando videos musicales en #[em YouTube], con una VPN no sabrán a qué se dedica.
           div.text-small(numero="5" titulo="Desventajas")
             ul.fa-ul
               li.mb-2
                 i.fa-li.fas.fa-check(style="color:#ffb30b")
-                | Costo
+                span Costo
               li.mb-2
                 i.fa-li.fas.fa-check(style="color:#ffb30b")
-                | Limitación de navegación.
+                span Limitación de navegación.
 
               li.mb-2
                 i.fa-li.fas.fa-check(style="color:#ffb30b")
-                | Seguridad no tan fiable.
+                span Seguridad no tan fiable.
 
               li.mb-2
                 i.fa-li.fas.fa-check(style="color:#ffb30b")
-                | No siempre se puede falsear la ubicación.
+                span No siempre se puede falsear la ubicación.
 
               li
                 i.fa-li.fas.fa-check(style="color:#ffb30b")
-                | No se puede navegar en anonimato.
+                span No se puede navegar en anonimato.
 
     p.mb-5(data-aos='fade-right') Para conocer acerca de gestión de redundancia de servidores, se invita a observar el siguiente video atentamente:
     figure

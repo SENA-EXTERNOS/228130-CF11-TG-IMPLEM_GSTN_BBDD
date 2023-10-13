@@ -117,7 +117,7 @@
 
               li
                 i.fas.fa-check
-                p.mb-0 Certificación de una estándar internacional.
+                p.mb-0 Certificación de un estándar internacional.
 
               li
                 i.fas.fa-check

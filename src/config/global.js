@@ -132,20 +132,20 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_fe2fd93ea30149c5ac6bd70d267159f7',
     },
     {
-      tema: 'Ciberseguridad',
-      referencia:
-        'Scolnik, H, y Bär, N. (2016). <em>Qué es la seguridad informática.</em> Editorial Planeta Paidós.',
-      tipo: 'Libro PDF',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000094337',
-    },
-    {
       tema: 'Gestión TI',
       referencia:
         'Philippe, F. (2010). <em> Windows Server 2008: Los Servicios de red TCP/IP.</em> Ediciones ENI. ',
       tipo: 'Libro PDF',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP ',
+    },
+    {
+      tema: 'Ciberseguridad',
+      referencia:
+        'Scolnik, H, y Bär, N. (2016). <em>Qué es la seguridad informática.</em> Editorial Planeta Paidós.',
+      tipo: 'Libro PDF',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000094337',
     },
   ],
   glosario: [
