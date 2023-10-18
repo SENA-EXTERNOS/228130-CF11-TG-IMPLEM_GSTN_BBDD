@@ -121,7 +121,7 @@ export default {
         'Fernández, M., Navarro, M., y Otero, M. (2014). <em> Sistemas de gestión de relaciones con clientes en las Empresas (CRM)</em>. Universidad De Alcalá, Print. Textos Universitarios.',
       tipo: 'Libro PDF',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB42931',
+        'https://dokumen.pub/sistemas-de-gestion-de-relaciones-con-clientes-en-las-empresas-crm-textos-universitarios-tecnologia-spanish-edition-1nbsped-8415834357-9788415834359.html',
     },
     {
       tema: 'Gestión de redundancia de servidores.',
