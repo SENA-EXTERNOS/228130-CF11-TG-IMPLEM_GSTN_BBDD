@@ -209,8 +209,6 @@ export default {
     {
       referencia:
         'Arroyo, D., Gayoso, V., y Hernández, L. (2020). <em>Ciberseguridad.</em> ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB172144',
     },
     {
       referencia:
@@ -227,8 +225,6 @@ export default {
     {
       referencia:
         'Fernández, M., y Navarro, M. (2014). <em>Sistemas de gestión de relaciones con clientes en las empresas (CRM)</em>. Alcalá. Universidad de Alcalá.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB42931',
     },
     {
       referencia:
