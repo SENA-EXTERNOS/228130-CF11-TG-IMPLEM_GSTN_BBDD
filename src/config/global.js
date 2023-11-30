@@ -208,10 +208,6 @@ export default {
     },
     {
       referencia:
-        'Arroyo, D., Gayoso, V., y Hernández, L. (2020). <em>Ciberseguridad.</em> ',
-    },
-    {
-      referencia:
         'Arteaga, M., y Pazmiño, M. (2018). <em> Uso de buenas prácticas en la gestión de proyectos de TI.</em> Innova Research Journal 3.2.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_dialnet_primary_oai_dialnet_unirioja_es_ART0001253130',
@@ -221,10 +217,6 @@ export default {
         'Cardador, A. (2018). <em>Ciberseguridad para usuarios IFCT135PO.</em> 1a Edición. IC Editorial. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000106036  ',
-    },
-    {
-      referencia:
-        'Fernández, M., y Navarro, M. (2014). <em>Sistemas de gestión de relaciones con clientes en las empresas (CRM)</em>. Alcalá. Universidad de Alcalá.',
     },
     {
       referencia:
